@@ -12,13 +12,7 @@ import { v4 as uuidv4 } from "uuid";
  */
 export function reduceDocs(
   existing?: Document[],
-  newDocs?:
-    | Document[]
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    | { [key: string]: any }[]
-    | string[]
-    | string
-    | "delete",
+  newDocs?: Document[] | { [key: string]: any }[] | string[] | string | "delete"
 ) {
   // Supports deletion by returning an empty array when "delete" is specified
   if (newDocs === "delete") {
@@ -68,7 +62,6 @@ export const IndexStateAnnotation = Annotation.Root({
    */
   docs: Annotation<
     Document[],
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     Document[] | { [key: string]: any }[] | string[] | string | "delete"
   >({
     reducer: reduceDocs,

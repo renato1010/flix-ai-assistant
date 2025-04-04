@@ -29,7 +29,6 @@ export const BaseConfigurationAnnotation = Annotation.Root({
   /**
    * Additional keyword arguments to pass to the search function of the retriever.
    */
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   searchKwargs: Annotation<Record<string, any>>,
 });
 
@@ -40,7 +39,7 @@ export const BaseConfigurationAnnotation = Annotation.Root({
  * @returns An instance of typeof BaseConfigurationAnnotation.State with the specified configuration.
  */
 export function ensureBaseConfiguration(
-  config: RunnableConfig,
+  config: RunnableConfig
 ): typeof BaseConfigurationAnnotation.State {
   const configurable = (config?.configurable || {}) as Partial<
     typeof BaseConfigurationAnnotation.State

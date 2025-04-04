@@ -10,9 +10,8 @@ export function getMessageText(msg: BaseMessage): string {
   if (typeof content === "string") {
     return content;
   } else {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const txts = (content as any[]).map((c) =>
-      typeof c === "string" ? c : c.text || "",
+      typeof c === "string" ? c : c.text || ""
     );
     return txts.join("").trim();
   }
@@ -43,7 +42,7 @@ export function formatDocs(docs?: Document[]): string {
  * @returns A Promise that resolves to a BaseChatModel instance.
  */
 export async function loadChatModel(
-  fullySpecifiedName: string,
+  fullySpecifiedName: string
 ): Promise<BaseChatModel> {
   const index = fullySpecifiedName.indexOf("/");
   if (index === -1) {

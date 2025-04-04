@@ -37,7 +37,6 @@ export const IndexConfigurationAnnotation = Annotation.Root({
   /**
    * Additional keyword arguments to pass to the search function of the retriever.
    */
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   searchKwargs: Annotation<Record<string, any>>,
 });
 
