@@ -5,10 +5,12 @@ import importPlugin from "eslint-plugin-import";
 import noInstanceofPlugin from "eslint-plugin-no-instanceof";
 import prettierConfig from "eslint-config-prettier";
 import globals from "globals";
+import { globalIgnores } from "eslint/config";
 
 export default [
   js.configs.recommended,
   prettierConfig,
+  globalIgnores(["**/generated/"]),
   {
     files: ["**/*.ts", "**/*.tsx"],
     plugins: {
@@ -36,6 +38,7 @@ export default [
       "eslint.config.js",
       "scripts/**",
       "*.d.ts",
+      "db/generated/**",
     ],
     rules: {
       "@typescript-eslint/explicit-module-boundary-types": 0,

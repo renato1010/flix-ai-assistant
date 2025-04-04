@@ -1,0 +1,2561 @@
+{
+  "cityName": "Guatemala City",
+  "cinemas": [
+    {
+      "cinemaName": "Cinépolis Oakland Mall",
+      "cinemaAddress": "Calle Real, Diagonal 6 13-01 zona 10, Centro Comercial Oakland Mall, Guatemala.",
+      "movies": [
+        {
+          "movieId": 47241,
+          "movieName": "La sustancia",
+          "movieLength": "141 min",
+          "movieRating": "",
+          "movieCode": "la-sustancia",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-sustancia",
+          "synopsis": "\"Tú, pero mejor en todos los sentidos\". Esa es la promesa de La Sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto. ",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2100
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/47241/1/1/47241.jpg"
+        },
+        {
+          "movieId": 48238,
+          "movieName": "Wicked",
+          "movieLength": "161 min",
+          "movieRating": "",
+          "movieCode": "wicked",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/wicked",
+          "synopsis": "Wicked la historia no contada de las brujas de Oz narra la vida de Elphaba, una joven incomprendida debido a su inusual piel verde, que aún no ha descubierto su verdadero poder, y Glinda, una joven popular, favorecida por el privilegio y la ambición, que aún tiene que descubrir su verdadero corazón.",
+          "genre": "AVENTURA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1730
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48238/1/1/48238.jpg"
+        },
+        {
+          "movieId": 48607,
+          "movieName": "Anora",
+          "movieLength": "139 min",
+          "movieRating": "",
+          "movieCode": "anora",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/anora",
+          "synopsis": "Anora, una joven trabajadora sexual de Brooklyn, tiene la oportunidad de protagonizar una historia como la de Cenicienta cuando conoce al hijo de un millonario y se casa impulsivamente con él. Cuando la noticia llega a Rusia, su cuento de hadas se ve amenazado cuando los padres de él parten hacia Nueva York para anular el matrimonio.",
+          "genre": "COMEDIA, DRAMA, ROMANCE",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1845
+              ],
+              "screen": 9
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48607/1/1/48607.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1755,
+                2050
+              ],
+              "screen": 1
+            },
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1720,
+                2010
+              ],
+              "screen": 8
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48953,
+          "movieName": "Amenaza en el aire",
+          "movieLength": "92 min",
+          "movieRating": "",
+          "movieCode": "amenaza-en-el-aire",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/amenaza-en-el-aire",
+          "synopsis": "En este emocionante thriller de alto riesgo y acción, Mark Wahlberg, nominado al Oscar por Mejor Actor de Reparto (2006 – The Departed), da vida a un piloto encargado de transportar a una teniente (interpretada por Michelle Dockery) y a un fugitivo (Topher Grace) hacia su juicio. A lo largo de su viaje por la imponente naturaleza de Alaska, se crea un ambiente de tensión y la confianza entre los personajes es puesta a prueba, revelando que las apariencias engañan y que no todos los presentes son lo que parecen.",
+          "genre": "SUSPENSO",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2125
+              ],
+              "screen": 2
+            },
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1855
+              ],
+              "screen": 2
+            },
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2215
+              ],
+              "screen": 10
+            },
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1735,
+                1955
+              ],
+              "screen": 10
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48953/1/1/48953.jpg"
+        },
+        {
+          "movieId": 48987,
+          "movieName": "El Brutalista",
+          "movieLength": "215 min",
+          "movieRating": "",
+          "movieCode": "el-brutalista",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-brutalista",
+          "synopsis": "Huyendo de la Europa de la posguerra, el visionario arquitecto László Toth llega a Estados Unidos para reconstruir su vida, su obra y su matrimonio con su esposa Erzsébet tras verse obligados a separarse durante la guerra a causa de los cambios de fronteras y regímenes. Solo y en un nuevo país totalmente desconocido para él, László se establece en Pensilvania, donde el adinerado y prominente empresario industrial Harrison Lee Van Buren reconoce su talento para la arquitectura. Pero amasar poder y forjarse un legado tiene su precio...",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2000
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48987/1/1/48987.jpg"
+        },
+        {
+          "movieId": 49078,
+          "movieName": "Attack On Titan: El Ataque Final",
+          "movieLength": "145 min",
+          "movieRating": "",
+          "movieCode": "attack-on-titan-el-ataque-final",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/attack-on-titan-el-ataque-final",
+          "synopsis": "Reúne los dos últimos episodios de la aclamada serie de anime en una experiencia cinematográfica, que ofrece el épico final en una película recopilatoria para la pantalla grande.\r\nLa humanidad vivía tranquilamente tras enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio interrumpido por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Jaeger, que juró vengarse de los titanes.\r\nAños después de unirse al Cuerpo de Exploración, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que le revela una nueva verdad sobre el mundo que conoce...\r\nTras aventurarse más allá de los muros y separarse de sus camaradas, Eren se encuentra inspirado por esta nueva verdad y trama el “retumbar”, un terrorífico plan para erradicar a todo ser vivo. Con el destino del mundo pendiendo de un hilo, un singular grupo de antiguos compañeros y enemigos de Eren luchan por detener su misión letal. La única pregunta es: ¿lo podrán hacer?",
+          "genre": "ANIMACION, ACCION",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1800,
+                1900
+              ],
+              "screen": 4
+            },
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2210
+              ],
+              "screen": 7
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49078/1/1/49078.jpg"
+        },
+        {
+          "movieId": 49079,
+          "movieName": "Better Man: La Historia De Robbie Williams",
+          "movieLength": "136 min",
+          "movieRating": "",
+          "movieCode": "better-man-la-historia-de-robbie-williams",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/better-man-la-historia-de-robbie-williams",
+          "synopsis": "Dirigida por Michael Gracey (The Greatest Showman, Rocketman). Cuenta la historia desde la perspectiva de Robbie Williams retratado por un mono. Esta película nos invita a recorrer los altibajos de su historia. Conocemos la vida de esta superestrella pop desde su niñez, su despegue hacia la fama, su estrepitoso descenso y su remarcable vuelta al mundo del espectáculo",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1810,
+                2120
+              ],
+              "screen": 11
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49079/1/1/49079.jpg"
+        },
+        {
+          "movieId": 49080,
+          "movieName": "El Mono",
+          "movieLength": "100 min",
+          "movieRating": "",
+          "movieCode": "el-mono",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-mono",
+          "synopsis": "Hal (Theo James), regresa a casa de su infancia, donde un siniestro juguete regresa para atormentarlo. El mono, que parecía un inocente regalo de su padre, pronto reveló su naturaleza maldita: cada vez que suena su tambor, la muerte se desata de manera violenta y grotesca.\r\n¿Es el mono el verdadero agente del mal, o Hal está siendo castigado por algo aún más oscuro? El mal está en todas partes, y el sonido del mono es sólo el comienzo.\r\nBasada en el cuento The Monkey de Stephen King, producida por James Wan (Jigsaw, Annabelle, La monja, M3GAN), y escrita y dirigida por Osgood Perkins (Longlegs, Gretel & Hansel).",
+          "genre": "TERROR",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2150
+              ],
+              "screen": 9
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49080/1/1/49080.jpg"
+        },
+        {
+          "movieId": 49146,
+          "movieName": "Red Velvet - Happiness Diary: My Dear, ReVe1uv",
+          "movieLength": "114 min",
+          "movieRating": "",
+          "movieCode": "red-velvet-happiness-diary-my-dear-reve1uv",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/red-velvet-happiness-diary-my-dear-reve1uv",
+          "synopsis": "Red Velvet, el aclamado grupo femenino de K-Pop, celebra se décimo aniversario con el fan-concierto \"Happiness: My Dear, ReVe1uv\". Este evento especial, realizado en Seúl en 2024, ofrece a los fans una experiencia única que combina actuaciones en vivo de sus mayores éxitos con momentos íntimos y reflexiones compartidas por las integrantes. El concierto abarca desde su canción debut \"Happiness\" hasta éxitos como \"Ice Cream Cake\", \"Red Flavor\", \"Psycho\", \"Feel my Rhythm\" y \"Cosmic\", destacando la versatilidad y evolución musical del grupo a lo largo de una década.",
+          "genre": "MUSICAL",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1915
+              ],
+              "screen": 6
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49146/1/1/49146.jpg"
+        },
+        {
+          "movieId": 49147,
+          "movieName": "La maldición de Sayuri",
+          "movieLength": "109 min",
+          "movieRating": "",
+          "movieCode": "la-maldicion-de-sayuri",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-maldicion-de-sayuri",
+          "synopsis": "Después de años de sacrificio la familia Kamiki ha logrado su meta de adquirir una casa de ensueño. Poco a poco se darán cuenta que hay algo maligno en ella y con sed de venganza. La tragedia y el horror perseguirá a los Kamiki su casa de ensueño se convertirá en el verdadero infierno. El gran regreso del maestro del Horror japonés Koji Shiraishi (Noroi: The Curse, Sadako vs Kayako, Occult) y el mangaka y maestro del horror Rensuke Oshikiri, \"La maldición de Sayuri\" es una de las cintas de horror japonés más aclamadas del 2024.",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2115
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49147/1/1/49147.jpg"
+        },
+        {
+          "movieId": 49241,
+          "movieName": "La confesión",
+          "movieLength": "95 min",
+          "movieRating": "",
+          "movieCode": "la-confesion",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-confesion",
+          "synopsis": "Un sacerdote católico de Monte Bello, El Salvador, ha creado un quirófano clandestino dentro de la iglesia para extraer órganos humanos de personas secuestradas y venderlos en el mercado negro.",
+          "genre": "THRILLER",
+          "formats": [
+            {
+              "language": "ESPAÑOL",
+              "startTimes": [
+                2200
+              ],
+              "screen": 6
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49241/1/1/49241.jpg"
+        }
+      ]
+    },
+    {
+      "cinemaName": "Cinépolis VIP Oakland Mall",
+      "cinemaAddress": "Diagonal 6 13-01 zona 10, Oakland Mall, nivel 3",
+      "movies": [
+        {
+          "movieId": 48910,
+          "movieName": "Cónclave",
+          "movieLength": "121 min",
+          "movieRating": "",
+          "movieCode": "conclave",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/conclave",
+          "synopsis": "Tras la inesperada muerte del Sumo Pontífice, el cardenal Lawrence (Ralph Fiennes) es designado como responsable para liderar uno de los rituales más secretos y antiguos del mundo: la elección de un nuevo Papa. Cuando los líderes más poderosos de la Iglesia Católica se reúnen en los salones del Vaticano, Lawrence se ve atrapado dentro de una compleja conspiración a la vez que descubre un secreto que podría sacudir los cimientos de la Iglesia.​",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1720
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48910/1/1/48910.jpg"
+        },
+        {
+          "movieId": 49080,
+          "movieName": "El Mono",
+          "movieLength": "100 min",
+          "movieRating": "",
+          "movieCode": "el-mono",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-mono",
+          "synopsis": "Hal (Theo James), regresa a casa de su infancia, donde un siniestro juguete regresa para atormentarlo. El mono, que parecía un inocente regalo de su padre, pronto reveló su naturaleza maldita: cada vez que suena su tambor, la muerte se desata de manera violenta y grotesca.\r\n¿Es el mono el verdadero agente del mal, o Hal está siendo castigado por algo aún más oscuro? El mal está en todas partes, y el sonido del mono es sólo el comienzo.\r\nBasada en el cuento The Monkey de Stephen King, producida por James Wan (Jigsaw, Annabelle, La monja, M3GAN), y escrita y dirigida por Osgood Perkins (Longlegs, Gretel & Hansel).",
+          "genre": "TERROR",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2030
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49080/1/1/49080.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1805,
+                2105,
+                2150
+              ],
+              "screen": 3
+            },
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1900
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48987,
+          "movieName": "El Brutalista",
+          "movieLength": "215 min",
+          "movieRating": "",
+          "movieCode": "el-brutalista",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-brutalista",
+          "synopsis": "Huyendo de la Europa de la posguerra, el visionario arquitecto László Toth llega a Estados Unidos para reconstruir su vida, su obra y su matrimonio con su esposa Erzsébet tras verse obligados a separarse durante la guerra a causa de los cambios de fronteras y regímenes. Solo y en un nuevo país totalmente desconocido para él, László se establece en Pensilvania, donde el adinerado y prominente empresario industrial Harrison Lee Van Buren reconoce su talento para la arquitectura. Pero amasar poder y forjarse un legado tiene su precio...",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1950
+              ],
+              "screen": 1
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48987/1/1/48987.jpg"
+        }
+      ]
+    },
+    {
+      "cinemaName": "Cinépolis Portales",
+      "cinemaAddress": "Centro Comercial Portales, km. 4.5 Carretera al Atlántico 3-20, Zona 17, 3er nivel. Guatemala, Guatemala.",
+      "movies": [
+        {
+          "movieId": 47241,
+          "movieName": "La sustancia",
+          "movieLength": "141 min",
+          "movieRating": "",
+          "movieCode": "la-sustancia",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-sustancia",
+          "synopsis": "\"Tú, pero mejor en todos los sentidos\". Esa es la promesa de La Sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto. ",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2045
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/47241/1/1/47241.jpg"
+        },
+        {
+          "movieId": 48238,
+          "movieName": "Wicked",
+          "movieLength": "161 min",
+          "movieRating": "",
+          "movieCode": "wicked",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/wicked",
+          "synopsis": "Wicked la historia no contada de las brujas de Oz narra la vida de Elphaba, una joven incomprendida debido a su inusual piel verde, que aún no ha descubierto su verdadero poder, y Glinda, una joven popular, favorecida por el privilegio y la ambición, que aún tiene que descubrir su verdadero corazón.",
+          "genre": "AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1715
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48238/1/1/48238.jpg"
+        },
+        {
+          "movieId": 48453,
+          "movieName": "Sonic 3: La Película",
+          "movieLength": "110 min",
+          "movieRating": "",
+          "movieCode": "sonic-3-la-pelicula",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/sonic-3-la-pelicula",
+          "synopsis": "Sonic regresa a la pantalla grande esta temporada navideña en su aventura más emocionante hasta el momento. Sonic, Knuckles y Tails se reunirán para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano con poderes nunca antes vistos. Con sus habilidades rebasadas en todos los sentidos, el Equipo Sonic deberá buscar una alianza improbable con la esperanza de detener a Shadow y proteger el planeta.",
+          "genre": "ACCION",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1920
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48453/1/1/48453.jpg"
+        },
+        {
+          "movieId": 48910,
+          "movieName": "Cónclave",
+          "movieLength": "121 min",
+          "movieRating": "",
+          "movieCode": "conclave",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/conclave",
+          "synopsis": "Tras la inesperada muerte del Sumo Pontífice, el cardenal Lawrence (Ralph Fiennes) es designado como responsable para liderar uno de los rituales más secretos y antiguos del mundo: la elección de un nuevo Papa. Cuando los líderes más poderosos de la Iglesia Católica se reúnen en los salones del Vaticano, Lawrence se ve atrapado dentro de una compleja conspiración a la vez que descubre un secreto que podría sacudir los cimientos de la Iglesia.​",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2110
+              ],
+              "screen": 7
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48910/1/1/48910.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2005
+              ],
+              "screen": 10
+            },
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1815,
+                2100
+              ],
+              "screen": 1
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48953,
+          "movieName": "Amenaza en el aire",
+          "movieLength": "92 min",
+          "movieRating": "",
+          "movieCode": "amenaza-en-el-aire",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/amenaza-en-el-aire",
+          "synopsis": "En este emocionante thriller de alto riesgo y acción, Mark Wahlberg, nominado al Oscar por Mejor Actor de Reparto (2006 – The Departed), da vida a un piloto encargado de transportar a una teniente (interpretada por Michelle Dockery) y a un fugitivo (Topher Grace) hacia su juicio. A lo largo de su viaje por la imponente naturaleza de Alaska, se crea un ambiente de tensión y la confianza entre los personajes es puesta a prueba, revelando que las apariencias engañan y que no todos los presentes son lo que parecen.",
+          "genre": "SUSPENSO",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1655,
+                2155
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48953/1/1/48953.jpg"
+        },
+        {
+          "movieId": 49078,
+          "movieName": "Attack On Titan: El Ataque Final",
+          "movieLength": "145 min",
+          "movieRating": "",
+          "movieCode": "attack-on-titan-el-ataque-final",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/attack-on-titan-el-ataque-final",
+          "synopsis": "Reúne los dos últimos episodios de la aclamada serie de anime en una experiencia cinematográfica, que ofrece el épico final en una película recopilatoria para la pantalla grande.\r\nLa humanidad vivía tranquilamente tras enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio interrumpido por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Jaeger, que juró vengarse de los titanes.\r\nAños después de unirse al Cuerpo de Exploración, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que le revela una nueva verdad sobre el mundo que conoce...\r\nTras aventurarse más allá de los muros y separarse de sus camaradas, Eren se encuentra inspirado por esta nueva verdad y trama el “retumbar”, un terrorífico plan para erradicar a todo ser vivo. Con el destino del mundo pendiendo de un hilo, un singular grupo de antiguos compañeros y enemigos de Eren luchan por detener su misión letal. La única pregunta es: ¿lo podrán hacer?",
+          "genre": "ANIMACION, ACCION",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1900,
+                2200
+              ],
+              "screen": 8
+            },
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1700,
+                1800,
+                2000
+              ],
+              "screen": 10
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49078/1/1/49078.jpg"
+        },
+        {
+          "movieId": 49079,
+          "movieName": "Better Man: La Historia De Robbie Williams",
+          "movieLength": "136 min",
+          "movieRating": "",
+          "movieCode": "better-man-la-historia-de-robbie-williams",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/better-man-la-historia-de-robbie-williams",
+          "synopsis": "Dirigida por Michael Gracey (The Greatest Showman, Rocketman). Cuenta la historia desde la perspectiva de Robbie Williams retratado por un mono. Esta película nos invita a recorrer los altibajos de su historia. Conocemos la vida de esta superestrella pop desde su niñez, su despegue hacia la fama, su estrepitoso descenso y su remarcable vuelta al mundo del espectáculo",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1745,
+                2045
+              ],
+              "screen": 9
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49079/1/1/49079.jpg"
+        },
+        {
+          "movieId": 49080,
+          "movieName": "El Mono",
+          "movieLength": "100 min",
+          "movieRating": "",
+          "movieCode": "el-mono",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-mono",
+          "synopsis": "Hal (Theo James), regresa a casa de su infancia, donde un siniestro juguete regresa para atormentarlo. El mono, que parecía un inocente regalo de su padre, pronto reveló su naturaleza maldita: cada vez que suena su tambor, la muerte se desata de manera violenta y grotesca.\r\n¿Es el mono el verdadero agente del mal, o Hal está siendo castigado por algo aún más oscuro? El mal está en todas partes, y el sonido del mono es sólo el comienzo.\r\nBasada en el cuento The Monkey de Stephen King, producida por James Wan (Jigsaw, Annabelle, La monja, M3GAN), y escrita y dirigida por Osgood Perkins (Longlegs, Gretel & Hansel).",
+          "genre": "TERROR",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2025
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49080/1/1/49080.jpg"
+        },
+        {
+          "movieId": 49146,
+          "movieName": "Red Velvet - Happiness Diary: My Dear, ReVe1uv",
+          "movieLength": "114 min",
+          "movieRating": "",
+          "movieCode": "red-velvet-happiness-diary-my-dear-reve1uv",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/red-velvet-happiness-diary-my-dear-reve1uv",
+          "synopsis": "Red Velvet, el aclamado grupo femenino de K-Pop, celebra se décimo aniversario con el fan-concierto \"Happiness: My Dear, ReVe1uv\". Este evento especial, realizado en Seúl en 2024, ofrece a los fans una experiencia única que combina actuaciones en vivo de sus mayores éxitos con momentos íntimos y reflexiones compartidas por las integrantes. El concierto abarca desde su canción debut \"Happiness\" hasta éxitos como \"Ice Cream Cake\", \"Red Flavor\", \"Psycho\", \"Feel my Rhythm\" y \"Cosmic\", destacando la versatilidad y evolución musical del grupo a lo largo de una década.",
+          "genre": "MUSICAL",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1740
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49146/1/1/49146.jpg"
+        },
+        {
+          "movieId": 49147,
+          "movieName": "La maldición de Sayuri",
+          "movieLength": "109 min",
+          "movieRating": "",
+          "movieCode": "la-maldicion-de-sayuri",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-maldicion-de-sayuri",
+          "synopsis": "Después de años de sacrificio la familia Kamiki ha logrado su meta de adquirir una casa de ensueño. Poco a poco se darán cuenta que hay algo maligno en ella y con sed de venganza. La tragedia y el horror perseguirá a los Kamiki su casa de ensueño se convertirá en el verdadero infierno. El gran regreso del maestro del Horror japonés Koji Shiraishi (Noroi: The Curse, Sadako vs Kayako, Occult) y el mangaka y maestro del horror Rensuke Oshikiri, \"La maldición de Sayuri\" es una de las cintas de horror japonés más aclamadas del 2024.",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2050
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49147/1/1/49147.jpg"
+        },
+        {
+          "movieId": 49241,
+          "movieName": "La confesión",
+          "movieLength": "95 min",
+          "movieRating": "",
+          "movieCode": "la-confesion",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-confesion",
+          "synopsis": "Un sacerdote católico de Monte Bello, El Salvador, ha creado un quirófano clandestino dentro de la iglesia para extraer órganos humanos de personas secuestradas y venderlos en el mercado negro.",
+          "genre": "THRILLER",
+          "formats": [
+            {
+              "language": "ESPAÑOL",
+              "startTimes": [
+                1830
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49241/1/1/49241.jpg"
+        }
+      ]
+    },
+    {
+      "cinemaName": "Cinépolis Galerías Miraflores",
+      "cinemaAddress": "21 Av. 4-32 Zona 11, Centro Comercial Galerías Miraflores 2do. Nivel. Z.P. 01011",
+      "movies": [
+        {
+          "movieId": 47241,
+          "movieName": "La sustancia",
+          "movieLength": "141 min",
+          "movieRating": "",
+          "movieCode": "la-sustancia",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-sustancia",
+          "synopsis": "\"Tú, pero mejor en todos los sentidos\". Esa es la promesa de La Sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto. ",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2125
+              ],
+              "screen": 9
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/47241/1/1/47241.jpg"
+        },
+        {
+          "movieId": 48238,
+          "movieName": "Wicked",
+          "movieLength": "161 min",
+          "movieRating": "",
+          "movieCode": "wicked",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/wicked",
+          "synopsis": "Wicked la historia no contada de las brujas de Oz narra la vida de Elphaba, una joven incomprendida debido a su inusual piel verde, que aún no ha descubierto su verdadero poder, y Glinda, una joven popular, favorecida por el privilegio y la ambición, que aún tiene que descubrir su verdadero corazón.",
+          "genre": "AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1750
+              ],
+              "screen": 9
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48238/1/1/48238.jpg"
+        },
+        {
+          "movieId": 48607,
+          "movieName": "Anora",
+          "movieLength": "139 min",
+          "movieRating": "",
+          "movieCode": "anora",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/anora",
+          "synopsis": "Anora, una joven trabajadora sexual de Brooklyn, tiene la oportunidad de protagonizar una historia como la de Cenicienta cuando conoce al hijo de un millonario y se casa impulsivamente con él. Cuando la noticia llega a Rusia, su cuento de hadas se ve amenazado cuando los padres de él parten hacia Nueva York para anular el matrimonio.",
+          "genre": "COMEDIA, DRAMA, ROMANCE",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1810
+              ],
+              "screen": 12
+            },
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2120
+              ],
+              "screen": 12
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48607/1/1/48607.jpg"
+        },
+        {
+          "movieId": 48909,
+          "movieName": "Flow",
+          "movieLength": "85 min",
+          "movieRating": "",
+          "movieCode": "flow",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/flow",
+          "synopsis": "Un gato se despierta en un mundo cubierto de agua, donde toda la raza humana parece haber desaparecido. Busca refugio en un barco con un grupo de animales. Pero llevarse bien con ellos resulta ser un reto aún mayor que superar su miedo al agua. Todos tendrán que aprender a superar sus diferencias y adaptarse a este nuevo mundo en el que se encuentran.",
+          "genre": "ANIMACION, AVENTURA",
+          "formats": [
+            {
+              "language": "ORIGINAL",
+              "startTimes": [
+                1710
+              ],
+              "screen": 14
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48909/1/1/48909.jpg"
+        },
+        {
+          "movieId": 48910,
+          "movieName": "Cónclave",
+          "movieLength": "121 min",
+          "movieRating": "",
+          "movieCode": "conclave",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/conclave",
+          "synopsis": "Tras la inesperada muerte del Sumo Pontífice, el cardenal Lawrence (Ralph Fiennes) es designado como responsable para liderar uno de los rituales más secretos y antiguos del mundo: la elección de un nuevo Papa. Cuando los líderes más poderosos de la Iglesia Católica se reúnen en los salones del Vaticano, Lawrence se ve atrapado dentro de una compleja conspiración a la vez que descubre un secreto que podría sacudir los cimientos de la Iglesia.​",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1850,
+                2135
+              ],
+              "screen": 11
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48910/1/1/48910.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1730,
+                1815,
+                1935,
+                2100
+              ],
+              "screen": 13
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48953,
+          "movieName": "Amenaza en el aire",
+          "movieLength": "92 min",
+          "movieRating": "",
+          "movieCode": "amenaza-en-el-aire",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/amenaza-en-el-aire",
+          "synopsis": "En este emocionante thriller de alto riesgo y acción, Mark Wahlberg, nominado al Oscar por Mejor Actor de Reparto (2006 – The Departed), da vida a un piloto encargado de transportar a una teniente (interpretada por Michelle Dockery) y a un fugitivo (Topher Grace) hacia su juicio. A lo largo de su viaje por la imponente naturaleza de Alaska, se crea un ambiente de tensión y la confianza entre los personajes es puesta a prueba, revelando que las apariencias engañan y que no todos los presentes son lo que parecen.",
+          "genre": "SUSPENSO",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1745
+              ],
+              "screen": 6
+            },
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2030
+              ],
+              "screen": 6
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48953/1/1/48953.jpg"
+        },
+        {
+          "movieId": 48987,
+          "movieName": "El Brutalista",
+          "movieLength": "215 min",
+          "movieRating": "",
+          "movieCode": "el-brutalista",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-brutalista",
+          "synopsis": "Huyendo de la Europa de la posguerra, el visionario arquitecto László Toth llega a Estados Unidos para reconstruir su vida, su obra y su matrimonio con su esposa Erzsébet tras verse obligados a separarse durante la guerra a causa de los cambios de fronteras y regímenes. Solo y en un nuevo país totalmente desconocido para él, László se establece en Pensilvania, donde el adinerado y prominente empresario industrial Harrison Lee Van Buren reconoce su talento para la arquitectura. Pero amasar poder y forjarse un legado tiene su precio...",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2015
+              ],
+              "screen": 13
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48987/1/1/48987.jpg"
+        },
+        {
+          "movieId": 49078,
+          "movieName": "Attack On Titan: El Ataque Final",
+          "movieLength": "145 min",
+          "movieRating": "",
+          "movieCode": "attack-on-titan-el-ataque-final",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/attack-on-titan-el-ataque-final",
+          "synopsis": "Reúne los dos últimos episodios de la aclamada serie de anime en una experiencia cinematográfica, que ofrece el épico final en una película recopilatoria para la pantalla grande.\r\nLa humanidad vivía tranquilamente tras enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio interrumpido por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Jaeger, que juró vengarse de los titanes.\r\nAños después de unirse al Cuerpo de Exploración, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que le revela una nueva verdad sobre el mundo que conoce...\r\nTras aventurarse más allá de los muros y separarse de sus camaradas, Eren se encuentra inspirado por esta nueva verdad y trama el “retumbar”, un terrorífico plan para erradicar a todo ser vivo. Con el destino del mundo pendiendo de un hilo, un singular grupo de antiguos compañeros y enemigos de Eren luchan por detener su misión letal. La única pregunta es: ¿lo podrán hacer?",
+          "genre": "ANIMACION, ACCION",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1900
+              ],
+              "screen": 3
+            },
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1800,
+                2105
+              ],
+              "screen": 8
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49078/1/1/49078.jpg"
+        },
+        {
+          "movieId": 49079,
+          "movieName": "Better Man: La Historia De Robbie Williams",
+          "movieLength": "136 min",
+          "movieRating": "",
+          "movieCode": "better-man-la-historia-de-robbie-williams",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/better-man-la-historia-de-robbie-williams",
+          "synopsis": "Dirigida por Michael Gracey (The Greatest Showman, Rocketman). Cuenta la historia desde la perspectiva de Robbie Williams retratado por un mono. Esta película nos invita a recorrer los altibajos de su historia. Conocemos la vida de esta superestrella pop desde su niñez, su despegue hacia la fama, su estrepitoso descenso y su remarcable vuelta al mundo del espectáculo",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1915
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49079/1/1/49079.jpg"
+        },
+        {
+          "movieId": 49080,
+          "movieName": "El Mono",
+          "movieLength": "100 min",
+          "movieRating": "",
+          "movieCode": "el-mono",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-mono",
+          "synopsis": "Hal (Theo James), regresa a casa de su infancia, donde un siniestro juguete regresa para atormentarlo. El mono, que parecía un inocente regalo de su padre, pronto reveló su naturaleza maldita: cada vez que suena su tambor, la muerte se desata de manera violenta y grotesca.\r\n¿Es el mono el verdadero agente del mal, o Hal está siendo castigado por algo aún más oscuro? El mal está en todas partes, y el sonido del mono es sólo el comienzo.\r\nBasada en el cuento The Monkey de Stephen King, producida por James Wan (Jigsaw, Annabelle, La monja, M3GAN), y escrita y dirigida por Osgood Perkins (Longlegs, Gretel & Hansel).",
+          "genre": "TERROR",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2155
+              ],
+              "screen": 14
+            },
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1930
+              ],
+              "screen": 14
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49080/1/1/49080.jpg"
+        },
+        {
+          "movieId": 49083,
+          "movieName": "Becoming Led Zeppelin: Los Inicios",
+          "movieLength": "122 min",
+          "movieRating": "",
+          "movieCode": "becoming-led-zeppelin-los-inicios",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/becoming-led-zeppelin-los-inicios",
+          "synopsis": "La película Becoming Led Zeppelin explora los orígenes de este icónico grupo y meteórico ascenso en tan sólo un año y en contra de todo pronóstico. La odisea cinematográfica de Bernard MacMahon explora la historia creativa, musical y personal de Led Zeppelin a través de imágenes, actuaciones y música asombrosas, psicodélicas y nunca vistas. La película está contada en las propias palabras de los integrantes de Led Zeppelin y es la primera oficialmente autorizada por el grupo.",
+          "genre": "DOCUMENTAL, MUSICAL",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1855,
+                2145
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49083/1/1/49083.jpg"
+        },
+        {
+          "movieId": 49146,
+          "movieName": "Red Velvet - Happiness Diary: My Dear, ReVe1uv",
+          "movieLength": "114 min",
+          "movieRating": "",
+          "movieCode": "red-velvet-happiness-diary-my-dear-reve1uv",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/red-velvet-happiness-diary-my-dear-reve1uv",
+          "synopsis": "Red Velvet, el aclamado grupo femenino de K-Pop, celebra se décimo aniversario con el fan-concierto \"Happiness: My Dear, ReVe1uv\". Este evento especial, realizado en Seúl en 2024, ofrece a los fans una experiencia única que combina actuaciones en vivo de sus mayores éxitos con momentos íntimos y reflexiones compartidas por las integrantes. El concierto abarca desde su canción debut \"Happiness\" hasta éxitos como \"Ice Cream Cake\", \"Red Flavor\", \"Psycho\", \"Feel my Rhythm\" y \"Cosmic\", destacando la versatilidad y evolución musical del grupo a lo largo de una década.",
+          "genre": "MUSICAL",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1820
+              ],
+              "screen": 7
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49146/1/1/49146.jpg"
+        },
+        {
+          "movieId": 49147,
+          "movieName": "La maldición de Sayuri",
+          "movieLength": "109 min",
+          "movieRating": "",
+          "movieCode": "la-maldicion-de-sayuri",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-maldicion-de-sayuri",
+          "synopsis": "Después de años de sacrificio la familia Kamiki ha logrado su meta de adquirir una casa de ensueño. Poco a poco se darán cuenta que hay algo maligno en ella y con sed de venganza. La tragedia y el horror perseguirá a los Kamiki su casa de ensueño se convertirá en el verdadero infierno. El gran regreso del maestro del Horror japonés Koji Shiraishi (Noroi: The Curse, Sadako vs Kayako, Occult) y el mangaka y maestro del horror Rensuke Oshikiri, \"La maldición de Sayuri\" es una de las cintas de horror japonés más aclamadas del 2024.",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2110
+              ],
+              "screen": 8
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49147/1/1/49147.jpg"
+        },
+        {
+          "movieId": 49241,
+          "movieName": "La confesión",
+          "movieLength": "95 min",
+          "movieRating": "",
+          "movieCode": "la-confesion",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-confesion",
+          "synopsis": "Un sacerdote católico de Monte Bello, El Salvador, ha creado un quirófano clandestino dentro de la iglesia para extraer órganos humanos de personas secuestradas y venderlos en el mercado negro.",
+          "genre": "THRILLER",
+          "formats": [
+            {
+              "language": "ESPAÑOL",
+              "startTimes": [
+                1830,
+                2115
+              ],
+              "screen": 10
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49241/1/1/49241.jpg"
+        }
+      ]
+    },
+    {
+      "cinemaName": "Cinépolis Cayalá",
+      "cinemaAddress": "Boulevard Rafael Landívar 10-05 zona 16, Interior Paseo Cayalá, Local O-207.",
+      "movies": [
+        {
+          "movieId": 47241,
+          "movieName": "La sustancia",
+          "movieLength": "141 min",
+          "movieRating": "",
+          "movieCode": "la-sustancia",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-sustancia",
+          "synopsis": "\"Tú, pero mejor en todos los sentidos\". Esa es la promesa de La Sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto. ",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2130
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/47241/1/1/47241.jpg"
+        },
+        {
+          "movieId": 48238,
+          "movieName": "Wicked",
+          "movieLength": "161 min",
+          "movieRating": "",
+          "movieCode": "wicked",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/wicked",
+          "synopsis": "Wicked la historia no contada de las brujas de Oz narra la vida de Elphaba, una joven incomprendida debido a su inusual piel verde, que aún no ha descubierto su verdadero poder, y Glinda, una joven popular, favorecida por el privilegio y la ambición, que aún tiene que descubrir su verdadero corazón.",
+          "genre": "AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1805
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48238/1/1/48238.jpg"
+        },
+        {
+          "movieId": 48910,
+          "movieName": "Cónclave",
+          "movieLength": "121 min",
+          "movieRating": "",
+          "movieCode": "conclave",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/conclave",
+          "synopsis": "Tras la inesperada muerte del Sumo Pontífice, el cardenal Lawrence (Ralph Fiennes) es designado como responsable para liderar uno de los rituales más secretos y antiguos del mundo: la elección de un nuevo Papa. Cuando los líderes más poderosos de la Iglesia Católica se reúnen en los salones del Vaticano, Lawrence se ve atrapado dentro de una compleja conspiración a la vez que descubre un secreto que podría sacudir los cimientos de la Iglesia.​",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2115
+              ],
+              "screen": 6
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48910/1/1/48910.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1755,
+                1945
+              ],
+              "screen": 1
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48953,
+          "movieName": "Amenaza en el aire",
+          "movieLength": "92 min",
+          "movieRating": "",
+          "movieCode": "amenaza-en-el-aire",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/amenaza-en-el-aire",
+          "synopsis": "En este emocionante thriller de alto riesgo y acción, Mark Wahlberg, nominado al Oscar por Mejor Actor de Reparto (2006 – The Departed), da vida a un piloto encargado de transportar a una teniente (interpretada por Michelle Dockery) y a un fugitivo (Topher Grace) hacia su juicio. A lo largo de su viaje por la imponente naturaleza de Alaska, se crea un ambiente de tensión y la confianza entre los personajes es puesta a prueba, revelando que las apariencias engañan y que no todos los presentes son lo que parecen.",
+          "genre": "SUSPENSO",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2220
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48953/1/1/48953.jpg"
+        },
+        {
+          "movieId": 49078,
+          "movieName": "Attack On Titan: El Ataque Final",
+          "movieLength": "145 min",
+          "movieRating": "",
+          "movieCode": "attack-on-titan-el-ataque-final",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/attack-on-titan-el-ataque-final",
+          "synopsis": "Reúne los dos últimos episodios de la aclamada serie de anime en una experiencia cinematográfica, que ofrece el épico final en una película recopilatoria para la pantalla grande.\r\nLa humanidad vivía tranquilamente tras enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio interrumpido por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Jaeger, que juró vengarse de los titanes.\r\nAños después de unirse al Cuerpo de Exploración, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que le revela una nueva verdad sobre el mundo que conoce...\r\nTras aventurarse más allá de los muros y separarse de sus camaradas, Eren se encuentra inspirado por esta nueva verdad y trama el “retumbar”, un terrorífico plan para erradicar a todo ser vivo. Con el destino del mundo pendiendo de un hilo, un singular grupo de antiguos compañeros y enemigos de Eren luchan por detener su misión letal. La única pregunta es: ¿lo podrán hacer?",
+          "genre": "ANIMACION, ACCION",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1900,
+                2120
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49078/1/1/49078.jpg"
+        },
+        {
+          "movieId": 49079,
+          "movieName": "Better Man: La Historia De Robbie Williams",
+          "movieLength": "136 min",
+          "movieRating": "",
+          "movieCode": "better-man-la-historia-de-robbie-williams",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/better-man-la-historia-de-robbie-williams",
+          "synopsis": "Dirigida por Michael Gracey (The Greatest Showman, Rocketman). Cuenta la historia desde la perspectiva de Robbie Williams retratado por un mono. Esta película nos invita a recorrer los altibajos de su historia. Conocemos la vida de esta superestrella pop desde su niñez, su despegue hacia la fama, su estrepitoso descenso y su remarcable vuelta al mundo del espectáculo",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1810
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49079/1/1/49079.jpg"
+        },
+        {
+          "movieId": 49080,
+          "movieName": "El Mono",
+          "movieLength": "100 min",
+          "movieRating": "",
+          "movieCode": "el-mono",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-mono",
+          "synopsis": "Hal (Theo James), regresa a casa de su infancia, donde un siniestro juguete regresa para atormentarlo. El mono, que parecía un inocente regalo de su padre, pronto reveló su naturaleza maldita: cada vez que suena su tambor, la muerte se desata de manera violenta y grotesca.\r\n¿Es el mono el verdadero agente del mal, o Hal está siendo castigado por algo aún más oscuro? El mal está en todas partes, y el sonido del mono es sólo el comienzo.\r\nBasada en el cuento The Monkey de Stephen King, producida por James Wan (Jigsaw, Annabelle, La monja, M3GAN), y escrita y dirigida por Osgood Perkins (Longlegs, Gretel & Hansel).",
+          "genre": "TERROR",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2040
+              ],
+              "screen": 1
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49080/1/1/49080.jpg"
+        },
+        {
+          "movieId": 49147,
+          "movieName": "La maldición de Sayuri",
+          "movieLength": "109 min",
+          "movieRating": "",
+          "movieCode": "la-maldicion-de-sayuri",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-maldicion-de-sayuri",
+          "synopsis": "Después de años de sacrificio la familia Kamiki ha logrado su meta de adquirir una casa de ensueño. Poco a poco se darán cuenta que hay algo maligno en ella y con sed de venganza. La tragedia y el horror perseguirá a los Kamiki su casa de ensueño se convertirá en el verdadero infierno. El gran regreso del maestro del Horror japonés Koji Shiraishi (Noroi: The Curse, Sadako vs Kayako, Occult) y el mangaka y maestro del horror Rensuke Oshikiri, \"La maldición de Sayuri\" es una de las cintas de horror japonés más aclamadas del 2024.",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2110
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49147/1/1/49147.jpg"
+        },
+        {
+          "movieId": 48377,
+          "movieName": "Mufasa: El rey león",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "mufasa-el-rey-leon",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/mufasa-el-rey-leon",
+          "synopsis": "La historia de esta precuela se cuenta mediante flashbacks y presenta a Mufasa como un cachorro huérfano, perdido y solo hasta que conoce a un simpático león llamado Taka, heredero de un linaje real. Este encuentro casual pone en marcha un viaje de un extraordinario grupo de inadaptados que buscan su destino. Y sus vínculos se pondrán a prueba mientras trabajan juntos para escapar de un enemigo amenazador y letal...",
+          "genre": "AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1830
+              ],
+              "screen": 6
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48377/1/1/48377.jpg"
+        }
+      ]
+    },
+    {
+      "cinemaName": "Cinépolis Santa Clara",
+      "cinemaAddress": "Km 16, carretera al Pacífico Centro Comercial Santa Clara",
+      "movies": [
+        {
+          "movieId": 47241,
+          "movieName": "La sustancia",
+          "movieLength": "141 min",
+          "movieRating": "",
+          "movieCode": "la-sustancia",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-sustancia",
+          "synopsis": "\"Tú, pero mejor en todos los sentidos\". Esa es la promesa de La Sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto. ",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2025
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/47241/1/1/47241.jpg"
+        },
+        {
+          "movieId": 48910,
+          "movieName": "Cónclave",
+          "movieLength": "121 min",
+          "movieRating": "",
+          "movieCode": "conclave",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/conclave",
+          "synopsis": "Tras la inesperada muerte del Sumo Pontífice, el cardenal Lawrence (Ralph Fiennes) es designado como responsable para liderar uno de los rituales más secretos y antiguos del mundo: la elección de un nuevo Papa. Cuando los líderes más poderosos de la Iglesia Católica se reúnen en los salones del Vaticano, Lawrence se ve atrapado dentro de una compleja conspiración a la vez que descubre un secreto que podría sacudir los cimientos de la Iglesia.​",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1745
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48910/1/1/48910.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1750,
+                2030
+              ],
+              "screen": 7
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48953,
+          "movieName": "Amenaza en el aire",
+          "movieLength": "92 min",
+          "movieRating": "",
+          "movieCode": "amenaza-en-el-aire",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/amenaza-en-el-aire",
+          "synopsis": "En este emocionante thriller de alto riesgo y acción, Mark Wahlberg, nominado al Oscar por Mejor Actor de Reparto (2006 – The Departed), da vida a un piloto encargado de transportar a una teniente (interpretada por Michelle Dockery) y a un fugitivo (Topher Grace) hacia su juicio. A lo largo de su viaje por la imponente naturaleza de Alaska, se crea un ambiente de tensión y la confianza entre los personajes es puesta a prueba, revelando que las apariencias engañan y que no todos los presentes son lo que parecen.",
+          "genre": "SUSPENSO",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1830
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48953/1/1/48953.jpg"
+        },
+        {
+          "movieId": 49078,
+          "movieName": "Attack On Titan: El Ataque Final",
+          "movieLength": "145 min",
+          "movieRating": "",
+          "movieCode": "attack-on-titan-el-ataque-final",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/attack-on-titan-el-ataque-final",
+          "synopsis": "Reúne los dos últimos episodios de la aclamada serie de anime en una experiencia cinematográfica, que ofrece el épico final en una película recopilatoria para la pantalla grande.\r\nLa humanidad vivía tranquilamente tras enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio interrumpido por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Jaeger, que juró vengarse de los titanes.\r\nAños después de unirse al Cuerpo de Exploración, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que le revela una nueva verdad sobre el mundo que conoce...\r\nTras aventurarse más allá de los muros y separarse de sus camaradas, Eren se encuentra inspirado por esta nueva verdad y trama el “retumbar”, un terrorífico plan para erradicar a todo ser vivo. Con el destino del mundo pendiendo de un hilo, un singular grupo de antiguos compañeros y enemigos de Eren luchan por detener su misión letal. La única pregunta es: ¿lo podrán hacer?",
+          "genre": "ANIMACION, ACCION",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1825,
+                1900,
+                2130
+              ],
+              "screen": 6
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49078/1/1/49078.jpg"
+        },
+        {
+          "movieId": 49079,
+          "movieName": "Better Man: La Historia De Robbie Williams",
+          "movieLength": "136 min",
+          "movieRating": "",
+          "movieCode": "better-man-la-historia-de-robbie-williams",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/better-man-la-historia-de-robbie-williams",
+          "synopsis": "Dirigida por Michael Gracey (The Greatest Showman, Rocketman). Cuenta la historia desde la perspectiva de Robbie Williams retratado por un mono. Esta película nos invita a recorrer los altibajos de su historia. Conocemos la vida de esta superestrella pop desde su niñez, su despegue hacia la fama, su estrepitoso descenso y su remarcable vuelta al mundo del espectáculo",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2135
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49079/1/1/49079.jpg"
+        },
+        {
+          "movieId": 49080,
+          "movieName": "El Mono",
+          "movieLength": "100 min",
+          "movieRating": "",
+          "movieCode": "el-mono",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-mono",
+          "synopsis": "Hal (Theo James), regresa a casa de su infancia, donde un siniestro juguete regresa para atormentarlo. El mono, que parecía un inocente regalo de su padre, pronto reveló su naturaleza maldita: cada vez que suena su tambor, la muerte se desata de manera violenta y grotesca.\r\n¿Es el mono el verdadero agente del mal, o Hal está siendo castigado por algo aún más oscuro? El mal está en todas partes, y el sonido del mono es sólo el comienzo.\r\nBasada en el cuento The Monkey de Stephen King, producida por James Wan (Jigsaw, Annabelle, La monja, M3GAN), y escrita y dirigida por Osgood Perkins (Longlegs, Gretel & Hansel).",
+          "genre": "TERROR",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1705,
+                1925,
+                2150
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49080/1/1/49080.jpg"
+        },
+        {
+          "movieId": 49147,
+          "movieName": "La maldición de Sayuri",
+          "movieLength": "109 min",
+          "movieRating": "",
+          "movieCode": "la-maldicion-de-sayuri",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-maldicion-de-sayuri",
+          "synopsis": "Después de años de sacrificio la familia Kamiki ha logrado su meta de adquirir una casa de ensueño. Poco a poco se darán cuenta que hay algo maligno en ella y con sed de venganza. La tragedia y el horror perseguirá a los Kamiki su casa de ensueño se convertirá en el verdadero infierno. El gran regreso del maestro del Horror japonés Koji Shiraishi (Noroi: The Curse, Sadako vs Kayako, Occult) y el mangaka y maestro del horror Rensuke Oshikiri, \"La maldición de Sayuri\" es una de las cintas de horror japonés más aclamadas del 2024.",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2045
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49147/1/1/49147.jpg"
+        },
+        {
+          "movieId": 48377,
+          "movieName": "Mufasa: El rey león",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "mufasa-el-rey-leon",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/mufasa-el-rey-leon",
+          "synopsis": "La historia de esta precuela se cuenta mediante flashbacks y presenta a Mufasa como un cachorro huérfano, perdido y solo hasta que conoce a un simpático león llamado Taka, heredero de un linaje real. Este encuentro casual pone en marcha un viaje de un extraordinario grupo de inadaptados que buscan su destino. Y sus vínculos se pondrán a prueba mientras trabajan juntos para escapar de un enemigo amenazador y letal...",
+          "genre": "AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1850
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48377/1/1/48377.jpg"
+        }
+      ]
+    },
+    {
+      "cinemaName": "Cinépolis Naranjo Mall",
+      "cinemaAddress": "Condado Naranjo, Mixco, Guatemala",
+      "movies": [
+        {
+          "movieId": 47241,
+          "movieName": "La sustancia",
+          "movieLength": "141 min",
+          "movieRating": "",
+          "movieCode": "la-sustancia",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-sustancia",
+          "synopsis": "\"Tú, pero mejor en todos los sentidos\". Esa es la promesa de La Sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto. ",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2030
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/47241/1/1/47241.jpg"
+        },
+        {
+          "movieId": 48910,
+          "movieName": "Cónclave",
+          "movieLength": "121 min",
+          "movieRating": "",
+          "movieCode": "conclave",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/conclave",
+          "synopsis": "Tras la inesperada muerte del Sumo Pontífice, el cardenal Lawrence (Ralph Fiennes) es designado como responsable para liderar uno de los rituales más secretos y antiguos del mundo: la elección de un nuevo Papa. Cuando los líderes más poderosos de la Iglesia Católica se reúnen en los salones del Vaticano, Lawrence se ve atrapado dentro de una compleja conspiración a la vez que descubre un secreto que podría sacudir los cimientos de la Iglesia.​",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1850
+              ],
+              "screen": 7
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48910/1/1/48910.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1825,
+                2110
+              ],
+              "screen": 1
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48953,
+          "movieName": "Amenaza en el aire",
+          "movieLength": "92 min",
+          "movieRating": "",
+          "movieCode": "amenaza-en-el-aire",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/amenaza-en-el-aire",
+          "synopsis": "En este emocionante thriller de alto riesgo y acción, Mark Wahlberg, nominado al Oscar por Mejor Actor de Reparto (2006 – The Departed), da vida a un piloto encargado de transportar a una teniente (interpretada por Michelle Dockery) y a un fugitivo (Topher Grace) hacia su juicio. A lo largo de su viaje por la imponente naturaleza de Alaska, se crea un ambiente de tensión y la confianza entre los personajes es puesta a prueba, revelando que las apariencias engañan y que no todos los presentes son lo que parecen.",
+          "genre": "SUSPENSO",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2100
+              ],
+              "screen": 8
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48953/1/1/48953.jpg"
+        },
+        {
+          "movieId": 49078,
+          "movieName": "Attack On Titan: El Ataque Final",
+          "movieLength": "145 min",
+          "movieRating": "",
+          "movieCode": "attack-on-titan-el-ataque-final",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/attack-on-titan-el-ataque-final",
+          "synopsis": "Reúne los dos últimos episodios de la aclamada serie de anime en una experiencia cinematográfica, que ofrece el épico final en una película recopilatoria para la pantalla grande.\r\nLa humanidad vivía tranquilamente tras enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio interrumpido por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Jaeger, que juró vengarse de los titanes.\r\nAños después de unirse al Cuerpo de Exploración, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que le revela una nueva verdad sobre el mundo que conoce...\r\nTras aventurarse más allá de los muros y separarse de sus camaradas, Eren se encuentra inspirado por esta nueva verdad y trama el “retumbar”, un terrorífico plan para erradicar a todo ser vivo. Con el destino del mundo pendiendo de un hilo, un singular grupo de antiguos compañeros y enemigos de Eren luchan por detener su misión letal. La única pregunta es: ¿lo podrán hacer?",
+          "genre": "ANIMACION, ACCION",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1800,
+                1900,
+                2055
+              ],
+              "screen": 8
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49078/1/1/49078.jpg"
+        },
+        {
+          "movieId": 49079,
+          "movieName": "Better Man: La Historia De Robbie Williams",
+          "movieLength": "136 min",
+          "movieRating": "",
+          "movieCode": "better-man-la-historia-de-robbie-williams",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/better-man-la-historia-de-robbie-williams",
+          "synopsis": "Dirigida por Michael Gracey (The Greatest Showman, Rocketman). Cuenta la historia desde la perspectiva de Robbie Williams retratado por un mono. Esta película nos invita a recorrer los altibajos de su historia. Conocemos la vida de esta superestrella pop desde su niñez, su despegue hacia la fama, su estrepitoso descenso y su remarcable vuelta al mundo del espectáculo",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1915
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49079/1/1/49079.jpg"
+        },
+        {
+          "movieId": 49080,
+          "movieName": "El Mono",
+          "movieLength": "100 min",
+          "movieRating": "",
+          "movieCode": "el-mono",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-mono",
+          "synopsis": "Hal (Theo James), regresa a casa de su infancia, donde un siniestro juguete regresa para atormentarlo. El mono, que parecía un inocente regalo de su padre, pronto reveló su naturaleza maldita: cada vez que suena su tambor, la muerte se desata de manera violenta y grotesca.\r\n¿Es el mono el verdadero agente del mal, o Hal está siendo castigado por algo aún más oscuro? El mal está en todas partes, y el sonido del mono es sólo el comienzo.\r\nBasada en el cuento The Monkey de Stephen King, producida por James Wan (Jigsaw, Annabelle, La monja, M3GAN), y escrita y dirigida por Osgood Perkins (Longlegs, Gretel & Hansel).",
+          "genre": "TERROR",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2130
+              ],
+              "screen": 7
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49080/1/1/49080.jpg"
+        },
+        {
+          "movieId": 49146,
+          "movieName": "Red Velvet - Happiness Diary: My Dear, ReVe1uv",
+          "movieLength": "114 min",
+          "movieRating": "",
+          "movieCode": "red-velvet-happiness-diary-my-dear-reve1uv",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/red-velvet-happiness-diary-my-dear-reve1uv",
+          "synopsis": "Red Velvet, el aclamado grupo femenino de K-Pop, celebra se décimo aniversario con el fan-concierto \"Happiness: My Dear, ReVe1uv\". Este evento especial, realizado en Seúl en 2024, ofrece a los fans una experiencia única que combina actuaciones en vivo de sus mayores éxitos con momentos íntimos y reflexiones compartidas por las integrantes. El concierto abarca desde su canción debut \"Happiness\" hasta éxitos como \"Ice Cream Cake\", \"Red Flavor\", \"Psycho\", \"Feel my Rhythm\" y \"Cosmic\", destacando la versatilidad y evolución musical del grupo a lo largo de una década.",
+          "genre": "MUSICAL",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1805
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49146/1/1/49146.jpg"
+        },
+        {
+          "movieId": 49147,
+          "movieName": "La maldición de Sayuri",
+          "movieLength": "109 min",
+          "movieRating": "",
+          "movieCode": "la-maldicion-de-sayuri",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-maldicion-de-sayuri",
+          "synopsis": "Después de años de sacrificio la familia Kamiki ha logrado su meta de adquirir una casa de ensueño. Poco a poco se darán cuenta que hay algo maligno en ella y con sed de venganza. La tragedia y el horror perseguirá a los Kamiki su casa de ensueño se convertirá en el verdadero infierno. El gran regreso del maestro del Horror japonés Koji Shiraishi (Noroi: The Curse, Sadako vs Kayako, Occult) y el mangaka y maestro del horror Rensuke Oshikiri, \"La maldición de Sayuri\" es una de las cintas de horror japonés más aclamadas del 2024.",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2200
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49147/1/1/49147.jpg"
+        },
+        {
+          "movieId": 48377,
+          "movieName": "Mufasa: El rey león",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "mufasa-el-rey-leon",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/mufasa-el-rey-leon",
+          "synopsis": "La historia de esta precuela se cuenta mediante flashbacks y presenta a Mufasa como un cachorro huérfano, perdido y solo hasta que conoce a un simpático león llamado Taka, heredero de un linaje real. Este encuentro casual pone en marcha un viaje de un extraordinario grupo de inadaptados que buscan su destino. Y sus vínculos se pondrán a prueba mientras trabajan juntos para escapar de un enemigo amenazador y letal...",
+          "genre": "AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2015
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48377/1/1/48377.jpg"
+        },
+        {
+          "movieId": 48453,
+          "movieName": "Sonic 3: La Película",
+          "movieLength": "110 min",
+          "movieRating": "",
+          "movieCode": "sonic-3-la-pelicula",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/sonic-3-la-pelicula",
+          "synopsis": "Sonic regresa a la pantalla grande esta temporada navideña en su aventura más emocionante hasta el momento. Sonic, Knuckles y Tails se reunirán para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano con poderes nunca antes vistos. Con sus habilidades rebasadas en todos los sentidos, el Equipo Sonic deberá buscar una alianza improbable con la esperanza de detener a Shadow y proteger el planeta.",
+          "genre": "ACCION",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1730
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48453/1/1/48453.jpg"
+        }
+      ]
+    },
+    {
+      "cinemaName": "Cinépolis El Frutal",
+      "cinemaAddress": "Boulevard El Frutal 14-00 Zona 5 Villa Nueva.",
+      "movies": [
+        {
+          "movieId": 47241,
+          "movieName": "La sustancia",
+          "movieLength": "141 min",
+          "movieRating": "",
+          "movieCode": "la-sustancia",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-sustancia",
+          "synopsis": "\"Tú, pero mejor en todos los sentidos\". Esa es la promesa de La Sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto. ",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1735
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/47241/1/1/47241.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1900,
+                2145
+              ],
+              "screen": 1
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48953,
+          "movieName": "Amenaza en el aire",
+          "movieLength": "92 min",
+          "movieRating": "",
+          "movieCode": "amenaza-en-el-aire",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/amenaza-en-el-aire",
+          "synopsis": "En este emocionante thriller de alto riesgo y acción, Mark Wahlberg, nominado al Oscar por Mejor Actor de Reparto (2006 – The Departed), da vida a un piloto encargado de transportar a una teniente (interpretada por Michelle Dockery) y a un fugitivo (Topher Grace) hacia su juicio. A lo largo de su viaje por la imponente naturaleza de Alaska, se crea un ambiente de tensión y la confianza entre los personajes es puesta a prueba, revelando que las apariencias engañan y que no todos los presentes son lo que parecen.",
+          "genre": "SUSPENSO",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2100
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48953/1/1/48953.jpg"
+        },
+        {
+          "movieId": 49078,
+          "movieName": "Attack On Titan: El Ataque Final",
+          "movieLength": "145 min",
+          "movieRating": "",
+          "movieCode": "attack-on-titan-el-ataque-final",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/attack-on-titan-el-ataque-final",
+          "synopsis": "Reúne los dos últimos episodios de la aclamada serie de anime en una experiencia cinematográfica, que ofrece el épico final en una película recopilatoria para la pantalla grande.\r\nLa humanidad vivía tranquilamente tras enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio interrumpido por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Jaeger, que juró vengarse de los titanes.\r\nAños después de unirse al Cuerpo de Exploración, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que le revela una nueva verdad sobre el mundo que conoce...\r\nTras aventurarse más allá de los muros y separarse de sus camaradas, Eren se encuentra inspirado por esta nueva verdad y trama el “retumbar”, un terrorífico plan para erradicar a todo ser vivo. Con el destino del mundo pendiendo de un hilo, un singular grupo de antiguos compañeros y enemigos de Eren luchan por detener su misión letal. La única pregunta es: ¿lo podrán hacer?",
+          "genre": "ANIMACION, ACCION",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1700,
+                1805,
+                2110
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49078/1/1/49078.jpg"
+        },
+        {
+          "movieId": 49079,
+          "movieName": "Better Man: La Historia De Robbie Williams",
+          "movieLength": "136 min",
+          "movieRating": "",
+          "movieCode": "better-man-la-historia-de-robbie-williams",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/better-man-la-historia-de-robbie-williams",
+          "synopsis": "Dirigida por Michael Gracey (The Greatest Showman, Rocketman). Cuenta la historia desde la perspectiva de Robbie Williams retratado por un mono. Esta película nos invita a recorrer los altibajos de su historia. Conocemos la vida de esta superestrella pop desde su niñez, su despegue hacia la fama, su estrepitoso descenso y su remarcable vuelta al mundo del espectáculo",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2040
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49079/1/1/49079.jpg"
+        },
+        {
+          "movieId": 49080,
+          "movieName": "El Mono",
+          "movieLength": "100 min",
+          "movieRating": "",
+          "movieCode": "el-mono",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-mono",
+          "synopsis": "Hal (Theo James), regresa a casa de su infancia, donde un siniestro juguete regresa para atormentarlo. El mono, que parecía un inocente regalo de su padre, pronto reveló su naturaleza maldita: cada vez que suena su tambor, la muerte se desata de manera violenta y grotesca.\r\n¿Es el mono el verdadero agente del mal, o Hal está siendo castigado por algo aún más oscuro? El mal está en todas partes, y el sonido del mono es sólo el comienzo.\r\nBasada en el cuento The Monkey de Stephen King, producida por James Wan (Jigsaw, Annabelle, La monja, M3GAN), y escrita y dirigida por Osgood Perkins (Longlegs, Gretel & Hansel).",
+          "genre": "TERROR",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1840
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49080/1/1/49080.jpg"
+        },
+        {
+          "movieId": 48377,
+          "movieName": "Mufasa: El rey león",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "mufasa-el-rey-leon",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/mufasa-el-rey-leon",
+          "synopsis": "La historia de esta precuela se cuenta mediante flashbacks y presenta a Mufasa como un cachorro huérfano, perdido y solo hasta que conoce a un simpático león llamado Taka, heredero de un linaje real. Este encuentro casual pone en marcha un viaje de un extraordinario grupo de inadaptados que buscan su destino. Y sus vínculos se pondrán a prueba mientras trabajan juntos para escapar de un enemigo amenazador y letal...",
+          "genre": "AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2000
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48377/1/1/48377.jpg"
+        }
+      ]
+    },
+    {
+      "cinemaName": "Cinépolis Parque Las Américas",
+      "cinemaAddress": "Centro Comercial Parque Las Américas, 4to nivel, local L-401. Avenida Las Américas, 6-69 Zona 14.",
+      "movies": [
+        {
+          "movieId": 47234,
+          "movieName": "Robot Salvaje",
+          "movieLength": "101 min",
+          "movieRating": "",
+          "movieCode": "robot-salvaje",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/robot-salvaje",
+          "synopsis": "Después de un naufragio, un robot inteligente llamado Roz queda varado en una isla deshabitada. Para sobrevivir al duro entorno, Roz se relaciona con los animales de la isla y cuida de un ganso bebé huérfano.",
+          "genre": "ANIMACION",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1700
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/47234/1/1/47234.jpg"
+        },
+        {
+          "movieId": 47241,
+          "movieName": "La sustancia",
+          "movieLength": "141 min",
+          "movieRating": "",
+          "movieCode": "la-sustancia",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-sustancia",
+          "synopsis": "\"Tú, pero mejor en todos los sentidos\". Esa es la promesa de La Sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto. ",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2100
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/47241/1/1/47241.jpg"
+        },
+        {
+          "movieId": 48910,
+          "movieName": "Cónclave",
+          "movieLength": "121 min",
+          "movieRating": "",
+          "movieCode": "conclave",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/conclave",
+          "synopsis": "Tras la inesperada muerte del Sumo Pontífice, el cardenal Lawrence (Ralph Fiennes) es designado como responsable para liderar uno de los rituales más secretos y antiguos del mundo: la elección de un nuevo Papa. Cuando los líderes más poderosos de la Iglesia Católica se reúnen en los salones del Vaticano, Lawrence se ve atrapado dentro de una compleja conspiración a la vez que descubre un secreto que podría sacudir los cimientos de la Iglesia.​",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1815
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48910/1/1/48910.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2045
+              ],
+              "screen": 6
+            },
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1800
+              ],
+              "screen": 6
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48953,
+          "movieName": "Amenaza en el aire",
+          "movieLength": "92 min",
+          "movieRating": "",
+          "movieCode": "amenaza-en-el-aire",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/amenaza-en-el-aire",
+          "synopsis": "En este emocionante thriller de alto riesgo y acción, Mark Wahlberg, nominado al Oscar por Mejor Actor de Reparto (2006 – The Departed), da vida a un piloto encargado de transportar a una teniente (interpretada por Michelle Dockery) y a un fugitivo (Topher Grace) hacia su juicio. A lo largo de su viaje por la imponente naturaleza de Alaska, se crea un ambiente de tensión y la confianza entre los personajes es puesta a prueba, revelando que las apariencias engañan y que no todos los presentes son lo que parecen.",
+          "genre": "SUSPENSO",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1845
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48953/1/1/48953.jpg"
+        },
+        {
+          "movieId": 48987,
+          "movieName": "El Brutalista",
+          "movieLength": "215 min",
+          "movieRating": "",
+          "movieCode": "el-brutalista",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-brutalista",
+          "synopsis": "Huyendo de la Europa de la posguerra, el visionario arquitecto László Toth llega a Estados Unidos para reconstruir su vida, su obra y su matrimonio con su esposa Erzsébet tras verse obligados a separarse durante la guerra a causa de los cambios de fronteras y regímenes. Solo y en un nuevo país totalmente desconocido para él, László se establece en Pensilvania, donde el adinerado y prominente empresario industrial Harrison Lee Van Buren reconoce su talento para la arquitectura. Pero amasar poder y forjarse un legado tiene su precio...",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1930
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48987/1/1/48987.jpg"
+        },
+        {
+          "movieId": 49078,
+          "movieName": "Attack On Titan: El Ataque Final",
+          "movieLength": "145 min",
+          "movieRating": "",
+          "movieCode": "attack-on-titan-el-ataque-final",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/attack-on-titan-el-ataque-final",
+          "synopsis": "Reúne los dos últimos episodios de la aclamada serie de anime en una experiencia cinematográfica, que ofrece el épico final en una película recopilatoria para la pantalla grande.\r\nLa humanidad vivía tranquilamente tras enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio interrumpido por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Jaeger, que juró vengarse de los titanes.\r\nAños después de unirse al Cuerpo de Exploración, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que le revela una nueva verdad sobre el mundo que conoce...\r\nTras aventurarse más allá de los muros y separarse de sus camaradas, Eren se encuentra inspirado por esta nueva verdad y trama el “retumbar”, un terrorífico plan para erradicar a todo ser vivo. Con el destino del mundo pendiendo de un hilo, un singular grupo de antiguos compañeros y enemigos de Eren luchan por detener su misión letal. La única pregunta es: ¿lo podrán hacer?",
+          "genre": "ANIMACION, ACCION",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1900
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49078/1/1/49078.jpg"
+        },
+        {
+          "movieId": 49079,
+          "movieName": "Better Man: La Historia De Robbie Williams",
+          "movieLength": "136 min",
+          "movieRating": "",
+          "movieCode": "better-man-la-historia-de-robbie-williams",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/better-man-la-historia-de-robbie-williams",
+          "synopsis": "Dirigida por Michael Gracey (The Greatest Showman, Rocketman). Cuenta la historia desde la perspectiva de Robbie Williams retratado por un mono. Esta película nos invita a recorrer los altibajos de su historia. Conocemos la vida de esta superestrella pop desde su niñez, su despegue hacia la fama, su estrepitoso descenso y su remarcable vuelta al mundo del espectáculo",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1830
+              ],
+              "screen": 1
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49079/1/1/49079.jpg"
+        },
+        {
+          "movieId": 49147,
+          "movieName": "La maldición de Sayuri",
+          "movieLength": "109 min",
+          "movieRating": "",
+          "movieCode": "la-maldicion-de-sayuri",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-maldicion-de-sayuri",
+          "synopsis": "Después de años de sacrificio la familia Kamiki ha logrado su meta de adquirir una casa de ensueño. Poco a poco se darán cuenta que hay algo maligno en ella y con sed de venganza. La tragedia y el horror perseguirá a los Kamiki su casa de ensueño se convertirá en el verdadero infierno. El gran regreso del maestro del Horror japonés Koji Shiraishi (Noroi: The Curse, Sadako vs Kayako, Occult) y el mangaka y maestro del horror Rensuke Oshikiri, \"La maldición de Sayuri\" es una de las cintas de horror japonés más aclamadas del 2024.",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2115
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49147/1/1/49147.jpg"
+        }
+      ]
+    },
+    {
+      "cinemaName": "Cinépolis Sankris Mall",
+      "cinemaAddress": "Boulevard San Cristobal, zona 8 de Mixco, Ciudad de Guatemala",
+      "movies": [
+        {
+          "movieId": 48910,
+          "movieName": "Cónclave",
+          "movieLength": "121 min",
+          "movieRating": "",
+          "movieCode": "conclave",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/conclave",
+          "synopsis": "Tras la inesperada muerte del Sumo Pontífice, el cardenal Lawrence (Ralph Fiennes) es designado como responsable para liderar uno de los rituales más secretos y antiguos del mundo: la elección de un nuevo Papa. Cuando los líderes más poderosos de la Iglesia Católica se reúnen en los salones del Vaticano, Lawrence se ve atrapado dentro de una compleja conspiración a la vez que descubre un secreto que podría sacudir los cimientos de la Iglesia.​",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1915
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48910/1/1/48910.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1825,
+                2110
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48953,
+          "movieName": "Amenaza en el aire",
+          "movieLength": "92 min",
+          "movieRating": "",
+          "movieCode": "amenaza-en-el-aire",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/amenaza-en-el-aire",
+          "synopsis": "En este emocionante thriller de alto riesgo y acción, Mark Wahlberg, nominado al Oscar por Mejor Actor de Reparto (2006 – The Departed), da vida a un piloto encargado de transportar a una teniente (interpretada por Michelle Dockery) y a un fugitivo (Topher Grace) hacia su juicio. A lo largo de su viaje por la imponente naturaleza de Alaska, se crea un ambiente de tensión y la confianza entre los personajes es puesta a prueba, revelando que las apariencias engañan y que no todos los presentes son lo que parecen.",
+          "genre": "SUSPENSO",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1905
+              ],
+              "screen": 3
+            },
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2125
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48953/1/1/48953.jpg"
+        },
+        {
+          "movieId": 49078,
+          "movieName": "Attack On Titan: El Ataque Final",
+          "movieLength": "145 min",
+          "movieRating": "",
+          "movieCode": "attack-on-titan-el-ataque-final",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/attack-on-titan-el-ataque-final",
+          "synopsis": "Reúne los dos últimos episodios de la aclamada serie de anime en una experiencia cinematográfica, que ofrece el épico final en una película recopilatoria para la pantalla grande.\r\nLa humanidad vivía tranquilamente tras enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio interrumpido por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Jaeger, que juró vengarse de los titanes.\r\nAños después de unirse al Cuerpo de Exploración, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que le revela una nueva verdad sobre el mundo que conoce...\r\nTras aventurarse más allá de los muros y separarse de sus camaradas, Eren se encuentra inspirado por esta nueva verdad y trama el “retumbar”, un terrorífico plan para erradicar a todo ser vivo. Con el destino del mundo pendiendo de un hilo, un singular grupo de antiguos compañeros y enemigos de Eren luchan por detener su misión letal. La única pregunta es: ¿lo podrán hacer?",
+          "genre": "ANIMACION, ACCION",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1900,
+                2010
+              ],
+              "screen": 6
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49078/1/1/49078.jpg"
+        },
+        {
+          "movieId": 49079,
+          "movieName": "Better Man: La Historia De Robbie Williams",
+          "movieLength": "136 min",
+          "movieRating": "",
+          "movieCode": "better-man-la-historia-de-robbie-williams",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/better-man-la-historia-de-robbie-williams",
+          "synopsis": "Dirigida por Michael Gracey (The Greatest Showman, Rocketman). Cuenta la historia desde la perspectiva de Robbie Williams retratado por un mono. Esta película nos invita a recorrer los altibajos de su historia. Conocemos la vida de esta superestrella pop desde su niñez, su despegue hacia la fama, su estrepitoso descenso y su remarcable vuelta al mundo del espectáculo",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2040
+              ],
+              "screen": 1
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49079/1/1/49079.jpg"
+        },
+        {
+          "movieId": 49080,
+          "movieName": "El Mono",
+          "movieLength": "100 min",
+          "movieRating": "",
+          "movieCode": "el-mono",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-mono",
+          "synopsis": "Hal (Theo James), regresa a casa de su infancia, donde un siniestro juguete regresa para atormentarlo. El mono, que parecía un inocente regalo de su padre, pronto reveló su naturaleza maldita: cada vez que suena su tambor, la muerte se desata de manera violenta y grotesca.\r\n¿Es el mono el verdadero agente del mal, o Hal está siendo castigado por algo aún más oscuro? El mal está en todas partes, y el sonido del mono es sólo el comienzo.\r\nBasada en el cuento The Monkey de Stephen King, producida por James Wan (Jigsaw, Annabelle, La monja, M3GAN), y escrita y dirigida por Osgood Perkins (Longlegs, Gretel & Hansel).",
+          "genre": "TERROR",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1750
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49080/1/1/49080.jpg"
+        },
+        {
+          "movieId": 49147,
+          "movieName": "La maldición de Sayuri",
+          "movieLength": "109 min",
+          "movieRating": "",
+          "movieCode": "la-maldicion-de-sayuri",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-maldicion-de-sayuri",
+          "synopsis": "Después de años de sacrificio la familia Kamiki ha logrado su meta de adquirir una casa de ensueño. Poco a poco se darán cuenta que hay algo maligno en ella y con sed de venganza. La tragedia y el horror perseguirá a los Kamiki su casa de ensueño se convertirá en el verdadero infierno. El gran regreso del maestro del Horror japonés Koji Shiraishi (Noroi: The Curse, Sadako vs Kayako, Occult) y el mangaka y maestro del horror Rensuke Oshikiri, \"La maldición de Sayuri\" es una de las cintas de horror japonés más aclamadas del 2024.",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2200
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49147/1/1/49147.jpg"
+        }
+      ]
+    },
+    {
+      "cinemaName": "Cinépolis Rus Mall",
+      "cinemaAddress": "Calzada Roosevelt 12-76 Zona 7, Cuidad de Guatemala",
+      "movies": [
+        {
+          "movieId": 47241,
+          "movieName": "La sustancia",
+          "movieLength": "141 min",
+          "movieRating": "",
+          "movieCode": "la-sustancia",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-sustancia",
+          "synopsis": "\"Tú, pero mejor en todos los sentidos\". Esa es la promesa de La Sustancia, un producto revolucionario basado en la división celular, que crea un alter ego más joven, más bello, más perfecto. ",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2115
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/47241/1/1/47241.jpg"
+        },
+        {
+          "movieId": 48238,
+          "movieName": "Wicked",
+          "movieLength": "161 min",
+          "movieRating": "",
+          "movieCode": "wicked",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/wicked",
+          "synopsis": "Wicked la historia no contada de las brujas de Oz narra la vida de Elphaba, una joven incomprendida debido a su inusual piel verde, que aún no ha descubierto su verdadero poder, y Glinda, una joven popular, favorecida por el privilegio y la ambición, que aún tiene que descubrir su verdadero corazón.",
+          "genre": "AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1745
+              ],
+              "screen": 4
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48238/1/1/48238.jpg"
+        },
+        {
+          "movieId": 48909,
+          "movieName": "Flow",
+          "movieLength": "85 min",
+          "movieRating": "",
+          "movieCode": "flow",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/flow",
+          "synopsis": "Un gato se despierta en un mundo cubierto de agua, donde toda la raza humana parece haber desaparecido. Busca refugio en un barco con un grupo de animales. Pero llevarse bien con ellos resulta ser un reto aún mayor que superar su miedo al agua. Todos tendrán que aprender a superar sus diferencias y adaptarse a este nuevo mundo en el que se encuentran.",
+          "genre": "ANIMACION, AVENTURA",
+          "formats": [
+            {
+              "language": "ORIGINAL",
+              "startTimes": [
+                1850
+              ],
+              "screen": 1
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48909/1/1/48909.jpg"
+        },
+        {
+          "movieId": 48914,
+          "movieName": "Las aventuras de Dog Man",
+          "movieLength": "95 min",
+          "movieRating": "",
+          "movieCode": "las-aventuras-de-dog-man",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/las-aventuras-de-dog-man",
+          "synopsis": "Dog Man, mitad perro y mitad hombre, ha jurado proteger y servir mientras persigue tenazmente al supervillano felino Petey el Gato.",
+          "genre": "ANIMACION, ACCION, COMEDIA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1800
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48914/1/1/48914.jpg"
+        },
+        {
+          "movieId": 48922,
+          "movieName": "Capitán América: Un Nuevo Mundo",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "capitan-america-un-nuevo-mundo",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/capitan-america-un-nuevo-mundo",
+          "synopsis": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, interpretado por Harrison Ford en su debut en el MCU, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+          "genre": "ACCION, AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1945,
+                2100,
+                2225
+              ],
+              "screen": 2
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48922/1/1/48922.jpg"
+        },
+        {
+          "movieId": 48953,
+          "movieName": "Amenaza en el aire",
+          "movieLength": "92 min",
+          "movieRating": "",
+          "movieCode": "amenaza-en-el-aire",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/amenaza-en-el-aire",
+          "synopsis": "En este emocionante thriller de alto riesgo y acción, Mark Wahlberg, nominado al Oscar por Mejor Actor de Reparto (2006 – The Departed), da vida a un piloto encargado de transportar a una teniente (interpretada por Michelle Dockery) y a un fugitivo (Topher Grace) hacia su juicio. A lo largo de su viaje por la imponente naturaleza de Alaska, se crea un ambiente de tensión y la confianza entre los personajes es puesta a prueba, revelando que las apariencias engañan y que no todos los presentes son lo que parecen.",
+          "genre": "SUSPENSO",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                1840
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48953/1/1/48953.jpg"
+        },
+        {
+          "movieId": 48987,
+          "movieName": "El Brutalista",
+          "movieLength": "215 min",
+          "movieRating": "",
+          "movieCode": "el-brutalista",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/el-brutalista",
+          "synopsis": "Huyendo de la Europa de la posguerra, el visionario arquitecto László Toth llega a Estados Unidos para reconstruir su vida, su obra y su matrimonio con su esposa Erzsébet tras verse obligados a separarse durante la guerra a causa de los cambios de fronteras y regímenes. Solo y en un nuevo país totalmente desconocido para él, László se establece en Pensilvania, donde el adinerado y prominente empresario industrial Harrison Lee Van Buren reconoce su talento para la arquitectura. Pero amasar poder y forjarse un legado tiene su precio...",
+          "genre": "DRAMA",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                2015
+              ],
+              "screen": 8
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48987/1/1/48987.jpg"
+        },
+        {
+          "movieId": 49078,
+          "movieName": "Attack On Titan: El Ataque Final",
+          "movieLength": "145 min",
+          "movieRating": "",
+          "movieCode": "attack-on-titan-el-ataque-final",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/attack-on-titan-el-ataque-final",
+          "synopsis": "Reúne los dos últimos episodios de la aclamada serie de anime en una experiencia cinematográfica, que ofrece el épico final en una película recopilatoria para la pantalla grande.\r\nLa humanidad vivía tranquilamente tras enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio interrumpido por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Jaeger, que juró vengarse de los titanes.\r\nAños después de unirse al Cuerpo de Exploración, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que le revela una nueva verdad sobre el mundo que conoce...\r\nTras aventurarse más allá de los muros y separarse de sus camaradas, Eren se encuentra inspirado por esta nueva verdad y trama el “retumbar”, un terrorífico plan para erradicar a todo ser vivo. Con el destino del mundo pendiendo de un hilo, un singular grupo de antiguos compañeros y enemigos de Eren luchan por detener su misión letal. La única pregunta es: ¿lo podrán hacer?",
+          "genre": "ANIMACION, ACCION",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1900,
+                2205
+              ],
+              "screen": 6
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49078/1/1/49078.jpg"
+        },
+        {
+          "movieId": 49146,
+          "movieName": "Red Velvet - Happiness Diary: My Dear, ReVe1uv",
+          "movieLength": "114 min",
+          "movieRating": "",
+          "movieCode": "red-velvet-happiness-diary-my-dear-reve1uv",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/red-velvet-happiness-diary-my-dear-reve1uv",
+          "synopsis": "Red Velvet, el aclamado grupo femenino de K-Pop, celebra se décimo aniversario con el fan-concierto \"Happiness: My Dear, ReVe1uv\". Este evento especial, realizado en Seúl en 2024, ofrece a los fans una experiencia única que combina actuaciones en vivo de sus mayores éxitos con momentos íntimos y reflexiones compartidas por las integrantes. El concierto abarca desde su canción debut \"Happiness\" hasta éxitos como \"Ice Cream Cake\", \"Red Flavor\", \"Psycho\", \"Feel my Rhythm\" y \"Cosmic\", destacando la versatilidad y evolución musical del grupo a lo largo de una década.",
+          "genre": "MUSICAL",
+          "formats": [
+            {
+              "language": "SUBTITULADA",
+              "startTimes": [
+                1830
+              ],
+              "screen": 7
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49146/1/1/49146.jpg"
+        },
+        {
+          "movieId": 49147,
+          "movieName": "La maldición de Sayuri",
+          "movieLength": "109 min",
+          "movieRating": "",
+          "movieCode": "la-maldicion-de-sayuri",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/la-maldicion-de-sayuri",
+          "synopsis": "Después de años de sacrificio la familia Kamiki ha logrado su meta de adquirir una casa de ensueño. Poco a poco se darán cuenta que hay algo maligno en ella y con sed de venganza. La tragedia y el horror perseguirá a los Kamiki su casa de ensueño se convertirá en el verdadero infierno. El gran regreso del maestro del Horror japonés Koji Shiraishi (Noroi: The Curse, Sadako vs Kayako, Occult) y el mangaka y maestro del horror Rensuke Oshikiri, \"La maldición de Sayuri\" es una de las cintas de horror japonés más aclamadas del 2024.",
+          "genre": "TERROR, DRAMA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2055
+              ],
+              "screen": 5
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/49147/1/1/49147.jpg"
+        },
+        {
+          "movieId": 48377,
+          "movieName": "Mufasa: El rey león",
+          "movieLength": "120 min",
+          "movieRating": "",
+          "movieCode": "mufasa-el-rey-leon",
+          "movieCast": "",
+          "movieDirectors": "",
+          "movieUrl": "https://cinepolis.com.gt/pelicula/mufasa-el-rey-leon",
+          "synopsis": "La historia de esta precuela se cuenta mediante flashbacks y presenta a Mufasa como un cachorro huérfano, perdido y solo hasta que conoce a un simpático león llamado Taka, heredero de un linaje real. Este encuentro casual pone en marcha un viaje de un extraordinario grupo de inadaptados que buscan su destino. Y sus vínculos se pondrán a prueba mientras trabajan juntos para escapar de un enemigo amenazador y letal...",
+          "genre": "AVENTURA",
+          "formats": [
+            {
+              "language": "DOBLADA",
+              "startTimes": [
+                2035
+              ],
+              "screen": 3
+            }
+          ],
+          "moviePoster": "https://static.cinepolis.com/img/peliculas/48377/1/1/48377.jpg"
+        }
+      ]
+    }
+  ]
+}

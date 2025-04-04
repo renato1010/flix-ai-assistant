@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/db/generated/prisma/client"
+}
+
+datasource db {
+  provider  = "mongodb"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_DATABASE_URL")
+}
+
+model City {
+  id      String   @id @default(auto()) @map("_id") @db.ObjectId
+  cinemas Cinema[]
+  name    String
+
+  @@unique([name])
+}
+
+model Cinema {
+  id               String  @id @default(auto()) @map("_id") @db.ObjectId
+  cityId           String  @db.ObjectId
+  city             City    @relation(fields: [cityId], references: [id])
+  movies           Movie[]
+  name             String
+  cinemaAddress    String
+  cinemaEmbeddings Float[]
+  cinemaRawText    String
+}
+
+model Movie {
+  id              String        @id @default(auto()) @map("_id") @db.ObjectId
+  cinema          Cinema        @relation(fields: [cinemaId], references: [id])
+  cinemaId        String        @db.ObjectId
+  formats         MovieDetail[]
+  movieOriginalId Int?
+  movieName       String
+  movieLength     String
+  movieRating     String
+  movieCode       String
+  movieCast       String
+  movieDirectors  String
+  movieUrl        String
+  synopsis        String
+  genre           String
+  moviePoster     String
+  movieEmbeddings Float[]
+  movieRawText    String
+}
+
+model MovieDetail {
+  id        String  @id @default(auto()) @map("_id") @db.ObjectId
+  Movie     Movie?  @relation(fields: [movieId], references: [id])
+  movieId   String? @db.ObjectId
+  language  String
+  startTime Int[]
+  screen    Int
+}

@@ -20,9 +20,13 @@
     "strict": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@/flix-agent/*": ["./src/flix-agent/*"]
+      "@/prisma/*": ["./src/prisma/*"],
+      "@/flix-agent/*": ["./src/flix-agent/*"],
+      "@/db/*": ["./src/db/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/types": ["./src/types/index.ts"]
     }
   },
-  "include": ["src/"],
-  "exclude": ["node_modules/", "dist"]
+  "include": ["src/", "prisma/**/*.ts"],
+  "exclude": ["node_modules/", "dist", "src/db/generated/"]
 }

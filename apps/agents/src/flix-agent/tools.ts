@@ -1,6 +1,6 @@
 import { tool } from '@langchain/core/tools';
 import { z } from 'zod';
-import { getTheatersFromMovieName } from '@/db/queries/cinemas-queries';
+import { getTheatersFromMovieName } from '@/db/queries/cinemas-queries.js';
 import { Command, END } from '@langchain/langgraph';
 import { ToolMessage } from '@langchain/core/messages';
 
