@@ -53,11 +53,13 @@ export const graph = workflow.compile();
 
 // (async () => {
 //   const inputs = {
-//     messages: [new HumanMessage('Que cines exhiben la pelicula rey leon?')]
+//     messages: [new HumanMessage("Que cines exhiben la pelicula rey leon?")],
 //   };
 
 //   /* Iterating the asyncIterable */
-//   for await (const value of await graph.stream(inputs, { streamMode: 'updates' })) {
+//   for await (const value of await graph.stream(inputs, {
+//     streamMode: "updates",
+//   })) {
 //     // const encoder = new TextEncoder();
 //     const chunk = JSON.parse(JSON.stringify(value));
 //     const isAgent = isAgentChunk(chunk);
@@ -66,7 +68,7 @@ export const graph = workflow.compile();
 //       // console.dir({ lastMessage }, { depth: Infinity });
 //       // @ts-expect-error(kwargs is a field in lastmessage)
 //       const content = lastMessage.kwargs.content as MessageContent;
-//       if (typeof content === 'string') {
+//       if (typeof content === "string") {
 //         console.dir({ content }, { depth: Infinity });
 //       } else {
 //         if (Array.isArray(content)) {
@@ -78,7 +80,9 @@ export const graph = workflow.compile();
 //       }
 //     }
 //   }
-// })();
+// })().catch((err) => {
+//   console.error("Error: ", err);
+// });
 
 // (async () => {
 //   const messageWithSingleToolCall = new AIMessage({

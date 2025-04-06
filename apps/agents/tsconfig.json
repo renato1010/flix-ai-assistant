@@ -25,7 +25,8 @@
       "@/db/*": ["./src/db/*"],
       "@/utils/*": ["./src/utils/*"],
       "@/types": ["./src/types/index.ts"]
-    }
+    },
+    "types": ["node"]
   },
   "include": ["src/", "prisma/**/*.ts"],
   "exclude": ["node_modules/", "dist", "src/db/generated/"]

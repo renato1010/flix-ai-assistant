@@ -103,4 +103,10 @@ export function getReferencesBlock(state: typeof GraphState.State) {
 // (async () => {
 //   const genreList = await getDistinctMovieGenresAsTmp();
 //   console.dir({ genreList }, { depth: Infinity });
-// })();
+// })()
+//   .catch((err) => {
+//     console.error("Error: ", err);
+//   })
+//   .finally(() => {
+//     console.log("Finished");
+//   });

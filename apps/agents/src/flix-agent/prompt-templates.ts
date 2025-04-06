@@ -312,11 +312,3 @@ Your clear and concise response(text) in Spanish, directly addressing the user's
   inputVariables: ['messages', 'references']
 });
 
-//TODO: remove this before deploying
-// (async () => {
-//   const userQuery = 'muestrame la cartelera para hoy en la tarde 4:00PM to 6:00PM';
-//   const formattedPrompt = await byTheHourPrompt.format({
-//     userQuery
-//   });
-//   console.dir({ formattedPrompt }, { depth: Infinity });
-// })();
