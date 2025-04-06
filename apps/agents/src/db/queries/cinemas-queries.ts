@@ -1,5 +1,5 @@
-import { prisma } from '@/db/client.js';
-import { dashLine } from '@/utils/misc.js';
+import { prisma } from "@/db/client.js";
+import { dashLine } from "@/utils/misc.js";
 
 function getMovieTheatersfromMovieNameQuery(movieTitle: string) {
   return prisma.cinema.findMany({
@@ -8,10 +8,10 @@ function getMovieTheatersfromMovieNameQuery(movieTitle: string) {
         some: {
           movieName: {
             contains: movieTitle,
-            mode: 'insensitive'
-          }
-        }
-      }
+            mode: "insensitive",
+          },
+        },
+      },
     },
     select: {
       name: true,
@@ -20,23 +20,23 @@ function getMovieTheatersfromMovieNameQuery(movieTitle: string) {
         where: {
           movieName: {
             contains: movieTitle,
-            mode: 'insensitive'
-          }
+            mode: "insensitive",
+          },
         },
         select: {
           movieName: true,
           formats: {
             select: {
-              startTime: true
-            }
-          }
-        }
-      }
+              startTime: true,
+            },
+          },
+        },
+      },
     },
-    distinct: ['name'],
+    distinct: ["name"],
     cacheStrategy: {
-      ttl: 4 * 60 * 60 // 4 hour
-    }
+      ttl: 4 * 60 * 60, // 4 hour
+    },
   });
 }
 
@@ -72,6 +72,8 @@ export async function getTheatersFromMovieName(movieTitle: string) {
 
 // TODO: remove this before deploying
 // (async () => {
-//   const textResponse = await getTheatersFromMovieNameTool('blanca nieves');
+//   const textResponse = await getTheatersFromMovieName("Mufasa: El rey león");
 //   console.dir({ textResponse }, { depth: Infinity });
-// })();
+// })().catch((error) => {
+//   console.error("Error: ", error);
+// });

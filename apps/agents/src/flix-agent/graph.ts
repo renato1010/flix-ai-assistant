@@ -56,7 +56,6 @@ export const graph = workflow.compile();
 //     messages: [new HumanMessage("Que cines exhiben la pelicula rey leon?")],
 //   };
 
-//   /* Iterating the asyncIterable */
 //   for await (const value of await graph.stream(inputs, {
 //     streamMode: "updates",
 //   })) {
