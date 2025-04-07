@@ -1,5 +1,6 @@
 import { prisma } from "@/db/client.js";
 import { dashLine } from "@/utils/misc.js";
+import { getStringFromFormat } from "@/db/queries/utils.js";
 
 function getMovieTheatersfromMovieNameQuery(movieTitle: string) {
   return prisma.cinema.findMany({
@@ -44,17 +45,7 @@ export async function getTheatersFromMovieName(movieTitle: string) {
   const movieTheaters = await getMovieTheatersfromMovieNameQuery(movieTitle);
   const refined = movieTheaters.map(({ name, cinemaAddress, movies }, idx) => {
     const { movieName, formats } = movies[0];
-    const startTimes = formats
-      .map(({ startTime }) => startTime)
-      .flat()
-      .map((time) => {
-        // cast to string
-        const stringTime = time.toString();
-        // separate first two characters from last two
-        const hours = stringTime.slice(0, 2);
-        const minutes = stringTime.slice(2, 4);
-        return `${hours}:${minutes}`;
-      });
+    const startTimes = getStringFromFormat(formats);
     return `
     Option: ${idx + 1}
     Theater Name: ${name}
