@@ -114,7 +114,7 @@ export async function getMoviesByGenreAndCinema(
     },
     cacheStrategy: {
       ttl: 4 * 60 * 60, // 4 hour
-      tags: ["movie_by_genre_and_cinema"],
+      tags: ["movies_by_genre_and_cinema"],
     },
   });
   const refined = movies.map(

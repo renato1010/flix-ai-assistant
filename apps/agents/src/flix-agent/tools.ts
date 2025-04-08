@@ -1,6 +1,9 @@
 import { tool } from "@langchain/core/tools";
 import { z } from "zod";
-import { getTheatersFromMovieName } from "@/db/queries/cinemas-queries.js";
+import {
+  getTheatersFromMovieName,
+  getTheatersLocatedInZone,
+} from "@/db/queries/cinemas-queries.js";
 import { Command, END } from "@langchain/langgraph";
 import { ToolMessage } from "@langchain/core/messages";
 import {
@@ -103,8 +106,38 @@ const getMovieInfoByMovieName = tool(
   }
 );
 
+const getCinemasNearReferencedZone = tool(
+  async ({ zoneRef }: { zoneRef: string[] }) => {
+    const cinemas = await getTheatersLocatedInZone(zoneRef);
+    return new Command({
+      update: {
+        messages: [
+          new ToolMessage({
+            content: cinemas,
+            tool_call_id: "get_cinemas_near_referenced_zone",
+          }),
+        ],
+        goto: END,
+      },
+    });
+  },
+  {
+    name: "getCinemasNearReferencedZone",
+    description:
+      "Get the list of cinemas near a referenced zone. The input should be the list of zone(s) referenced.",
+    schema: z
+      .object({
+        zoneRef: z
+          .array(z.string())
+          .describe("The zone list previously referenced"),
+      })
+      .strict(),
+  }
+);
+
 export const tools = [
   getMovieTheatersShowing,
   getMoviesByGenreAndOptionallyCinema,
   getMovieInfoByMovieName,
+  getCinemasNearReferencedZone,
 ];
