@@ -30,21 +30,15 @@ export async function initNode(
 ): Promise<Partial<typeof GraphState.State>> {
   console.log("---INIT NODE---");
   const { messages } = state;
-  const lastMsg = messages.at(-1);
-  if (!lastMsg) {
+  const lastHumanMsg = messages.filter((msg) => isHumanMessage(msg)).at(-1);
+  if (!lastHumanMsg) {
     return {
       currentQuestion: undefined,
     };
   }
-  if (isHumanMessage(lastMsg)) {
-    return {
-      currentQuestion: lastMsg ? lastMsg.content : undefined,
-    };
-  } else {
-    return {
-      currentQuestion: undefined,
-    };
-  }
+  return {
+    currentQuestion: lastHumanMsg.text,
+  };
 }
 
 export async function byCinema(
@@ -182,7 +176,6 @@ export async function agent(
     messages,
     references,
   });
-  // console.dir({ response }, { depth: Infinity });
 
   return {
     messages: [response],

@@ -15,3 +15,16 @@ export function getStringFromFormat(
       return `${hours}:${minutes}`;
     });
 }
+
+export function getNumberFromTimeString(timeString: string): number {
+  const [hours, minutes] = timeString.split(":").map(Number);
+  return hours * 100 + minutes;
+}
+
+// function returns "20:30" from 2030
+export function getStringFromNumber(number: number): string {
+  const hours = Math.floor(number / 100);
+  const minutes = number % 100;
+  return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}`;
+}
+

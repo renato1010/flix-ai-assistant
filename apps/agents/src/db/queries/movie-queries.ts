@@ -1,17 +1,36 @@
 import { prisma } from "@/db/client.js";
 import { dashLine, getNowHrsAndMinutes } from "@/utils/misc.js";
-import { getStringFromFormat } from "@/db/queries/utils.js";
+import {
+  getNumberFromTimeString,
+  getStringFromFormat,
+  getStringFromNumber,
+} from "@/db/queries/utils.js";
 
-export async function getMovieStartTimes(movieName: string) {
-  const scheduleList = await prisma.movie.findMany({
+export async function getMovieInfo(
+  movieName: string,
+  cinemaName?: string,
+  time?: string
+) {
+  const movieList = await prisma.movie.findMany({
     where: {
       movieName: {
         contains: movieName,
         mode: "insensitive",
       },
+      ...(cinemaName && {
+        cinema: {
+          name: {
+            contains: cinemaName,
+            mode: "insensitive",
+          },
+        },
+      }),
     },
     select: {
       movieName: true,
+      genre: true,
+      movieUrl: true,
+      synopsis: true,
       cinema: {
         select: {
           name: true,
@@ -21,31 +40,42 @@ export async function getMovieStartTimes(movieName: string) {
       formats: {
         select: {
           startTime: true,
-          language: true,
         },
       },
     },
     cacheStrategy: {
-      ttl: 60 * 60, // 1 hour
+      ttl: 4 * 60 * 60, // 4 hour
+      tags: ["movie_info_by_movie_name"],
     },
   });
 
-  return scheduleList.map(({ cinema, formats, movieName }) => {
-    const { name, cinemaAddress } = cinema;
-    // filter by start time greater than now
-    const now = getNowHrsAndMinutes();
-    return {
-      movieName,
-      cinemaName: name,
-      cinemaAddress,
-      schedule: formats
-        .filter(({ startTime }) => startTime.some((time) => time >= now))
-        .map(({ language, startTime }) => ({
-          language,
-          startTime: startTime.filter((time) => time >= now),
-        })),
-    };
-  });
+  const refined = movieList.map(
+    ({ cinema, formats, movieName, genre, movieUrl, synopsis }, idx) => {
+      const { name, cinemaAddress } = cinema;
+      // filter by start time greater than passed time
+      const timeThreshold = time || getStringFromNumber(getNowHrsAndMinutes());
+      const filteredByTimeThreshold = formats.filter(({ startTime }) => {
+        return startTime.some(
+          (t) => t > getNumberFromTimeString(timeThreshold)
+        );
+      });
+      return `
+    Option: ${idx + 1}
+    Movie Name: ${movieName}
+    Sinopsis: ${synopsis}
+    Genre: ${genre}
+    Theater Name: ${name}
+    Theater Address: ${cinemaAddress}
+    Movie Schedule: ${getStringFromFormat(filteredByTimeThreshold)}
+    Movie URL: ${movieUrl}
+    `;
+    }
+  );
+  const contentList = refined.reduce<string>((acc, item) => {
+    const line = item;
+    return acc + line + dashLine;
+  }, "");
+  return contentList;
 }
 
 // list movies by genre and optionally by cinema
@@ -84,6 +114,7 @@ export async function getMoviesByGenreAndCinema(
     },
     cacheStrategy: {
       ttl: 4 * 60 * 60, // 4 hour
+      tags: ["movie_by_genre_and_cinema"],
     },
   });
   const refined = movies.map(
@@ -109,8 +140,12 @@ export async function getMoviesByGenreAndCinema(
 
 // TODO: remove this before deploying to production
 // (async () => {
-//   const movies = await getMoviesByGenreAndCinema("Terror");
+//   const movies = await getMovieInfo(
+//     "Rescate implacable",
+//     "Cinépolis Oakland Mall"
+//   );
 //   console.dir({ movies }, { depth: Infinity });
+//   // await prisma.$accelerate.invalidate({ tags: ["movie_info_by_movie_name"] });
 // })().catch((err) => {
 //   console.error("Error: ", err);
 // });

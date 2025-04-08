@@ -9,5 +9,6 @@ export const getNowHrsAndMinutes = () => {
   return formattedHours + minutes;
 };
 
+
 export const dashLine = '----------\n';
 
