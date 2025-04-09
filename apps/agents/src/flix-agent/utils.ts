@@ -99,14 +99,3 @@ export function getReferencesBlock(state: typeof GraphState.State) {
   return dashLine + "\n" + referencesBlock + "\n" + dashLine;
 }
 
-// TODO: remove this before deploying to prod
-// (async () => {
-//   const genreList = await getDistinctMovieGenresAsTmp();
-//   console.dir({ genreList }, { depth: Infinity });
-// })()
-//   .catch((err) => {
-//     console.error("Error: ", err);
-//   })
-//   .finally(() => {
-//     console.log("Finished");
-//   });

@@ -27,7 +27,6 @@ import { RunnableLambda } from "@langchain/core/runnables";
  */
 
 export async function initNode(state: typeof GraphState.State): Promise<Partial<typeof GraphState.State>> {
-  console.log("---INIT NODE---");
   const { messages } = state;
   const lastHumanMsg = messages.filter((msg) => isHumanMessage(msg)).at(-1);
   if (!lastHumanMsg) {
@@ -41,8 +40,6 @@ export async function initNode(state: typeof GraphState.State): Promise<Partial<
 }
 
 export async function byCinema(state: typeof GraphState.State): Promise<Partial<typeof GraphState.State>> {
-  console.log("---BY CINEMA NODE---");
-
   const cinemas = await getCinemaNamesAsTmp();
   const userQuery = state.currentQuestion;
 
@@ -70,7 +67,6 @@ export async function byCinema(state: typeof GraphState.State): Promise<Partial<
 }
 
 export async function byZone(state: typeof GraphState.State): Promise<Partial<typeof GraphState.State>> {
-  console.log("---BY ZONE NODE---");
   const userQuery = state.currentQuestion;
   const addresses = await getCinemasAddressAsTmp();
   const byZone = RunnableLambda.from(
@@ -97,7 +93,6 @@ export async function byZone(state: typeof GraphState.State): Promise<Partial<ty
 }
 
 export async function byMovieName(state: typeof GraphState.State): Promise<Partial<typeof GraphState.State>> {
-  console.log("---BY MOVIE NAME NODE---");
   const userQuery = state.currentQuestion;
   const movieNames = await getDistinctMovieNamesAsTmp();
   const byMovieName = RunnableLambda.from(
@@ -124,7 +119,6 @@ export async function byMovieName(state: typeof GraphState.State): Promise<Parti
 }
 
 export async function byTheHour(state: typeof GraphState.State): Promise<Partial<typeof GraphState.State>> {
-  console.log("---BY THE HOUR NODE---");
   const userQuery = state.currentQuestion;
   const byTheHour = RunnableLambda.from(async ({ userQuery }: { userQuery: MessageContent }) => {
     const prompt = byTheHourPrompt;
@@ -146,7 +140,6 @@ export async function byTheHour(state: typeof GraphState.State): Promise<Partial
 }
 
 export async function byGenre(state: typeof GraphState.State): Promise<Partial<typeof GraphState.State>> {
-  console.log("---BY GENRE NODE---");
   const userQuery = state.currentQuestion;
   const genres = await getDistinctMovieGenresAsTmp();
   const byGenre = RunnableLambda.from(
@@ -174,7 +167,6 @@ export async function byGenre(state: typeof GraphState.State): Promise<Partial<t
 }
 
 export async function agent(state: typeof GraphState.State): Promise<Partial<typeof GraphState.State>> {
-  console.log("---AGENT NODE---");
   const references = getReferencesBlock(state);
   const messages = state.messages;
   const agentRunnable = RunnableLambda.from(

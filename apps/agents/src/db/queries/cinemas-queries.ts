@@ -106,10 +106,3 @@ export async function getTheatersLocatedInZone(zones: string[]) {
   return contentList;
 }
 
-// TODO: remove this before deploying
-// (async () => {
-//   const textResponse = await getTheatersLocatedInZone(["zona 10", "zona 7"]);
-//   console.dir({ textResponse }, { depth: Infinity });
-// })().catch((error) => {
-//   console.error("Error: ", error);
-// });

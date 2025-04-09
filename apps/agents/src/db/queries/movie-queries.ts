@@ -138,14 +138,3 @@ export async function getMoviesByGenreAndCinema(
   return contentList;
 }
 
-// TODO: remove this before deploying to production
-// (async () => {
-//   const movies = await getMovieInfo(
-//     "Rescate implacable",
-//     "Cinépolis Oakland Mall"
-//   );
-//   console.dir({ movies }, { depth: Infinity });
-//   // await prisma.$accelerate.invalidate({ tags: ["movie_info_by_movie_name"] });
-// })().catch((err) => {
-//   console.error("Error: ", err);
-// });
