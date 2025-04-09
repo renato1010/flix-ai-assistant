@@ -141,9 +141,9 @@ export const StreamProvider: React.FC<{ children: ReactNode }> = ({
         <div className="animate-in fade-in-0 zoom-in-95 flex flex-col border bg-background shadow-lg rounded-lg max-w-3xl">
           <div className="flex flex-col gap-2 mt-14 p-6 border-b">
             <div className="flex items-start flex-col gap-2">
-              <LangGraphLogoSVG className="h-7" />
+              <p className="text-4xl p-1">🍿</p>
               <h1 className="text-xl font-semibold tracking-tight">
-                Agent Chat
+                Pelis en Guate 🇬🇹
               </h1>
             </div>
             <p className="text-muted-foreground">

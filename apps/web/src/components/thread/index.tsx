@@ -263,9 +263,9 @@ export function Thread() {
                   damping: 30,
                 }}
               >
-                <LangGraphLogoSVG width={32} height={32} />
+                <p className="w-8 h-8 p-1">🍿</p>
                 <span className="text-xl font-semibold tracking-tight">
-                  Agent Chat
+                  Pelis en Guate 🇬🇹
                 </span>
               </motion.button>
             </div>
@@ -321,9 +321,9 @@ export function Thread() {
               <div className="sticky flex flex-col items-center gap-8 bottom-0 px-4 bg-white">
                 {!chatStarted && (
                   <div className="flex gap-3 items-center">
-                    <LangGraphLogoSVG className="flex-shrink-0 h-8" />
-                    <h1 className="text-2xl font-semibold tracking-tight">
-                      Agent Chat
+                    <p className="text-4xl p-1">🍿</p>
+                    <h1 className="text-xl font-semibold tracking-tight">
+                      Pelis en Guate 🇬🇹
                     </h1>
                   </div>
                 )}
