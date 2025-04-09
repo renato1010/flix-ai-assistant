@@ -99,3 +99,23 @@ export function getReferencesBlock(state: typeof GraphState.State) {
   return dashLine + "\n" + referencesBlock + "\n" + dashLine;
 }
 
+// print graph png
+// async function printGraph(compiledGraph: typeof graph) {
+//   const graphPath = join(process.cwd(), "src/flix-agent/graph.png");
+//   const graph = await compiledGraph.getGraphAsync();
+//   const blob = await graph.drawMermaidPng();
+//   const readableStream = blob.stream();
+//   const writableStream = createWriteStream(graphPath);
+//   await pipeline(readableStream as unknown as any, writableStream);
+// }
+
+// (async () => {
+//   await printGraph(graph);
+// })()
+//   .catch((err) => {
+//     console.error("Error printing graph:", err);
+//     process.exit(1);
+//   })
+//   .finally(() => {
+//     console.log("Graph printed successfully");
+//   });
