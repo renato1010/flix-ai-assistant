@@ -1,26 +1,25 @@
 import { tool } from "@langchain/core/tools";
 import { z } from "zod";
-import {
-  getTheatersFromMovieName,
-  getTheatersLocatedInZone,
-} from "@/db/queries/cinemas-queries.js";
+import { getTheatersShowingMovie, getTheatersLocatedInZone } from "@/db/queries/cinemas-queries.js";
 import { Command, END } from "@langchain/langgraph";
 import { ToolMessage } from "@langchain/core/messages";
 import {
   getMoviesByGenreAndCinema,
   getMovieInfo,
+  getMoviesByCinemaName,
 } from "@/db/queries/movie-queries.js";
+import { ToolNode } from "@langchain/langgraph/prebuilt";
 
-const getMovieTheatersShowing = tool(
-  async ({ movieTitle }: { movieTitle: string }) => {
-    const movieTheaters = await getTheatersFromMovieName(movieTitle);
+const getMovieListInTheater = tool(
+  async ({ cinemaName }: { cinemaName: string }) => {
+    const movies = await getMoviesByCinemaName(cinemaName);
     return new Command({
       // update state keys
       update: {
         messages: [
           new ToolMessage({
-            content: movieTheaters,
-            tool_call_id: "get_movie_theaters_showing",
+            content: movies,
+            tool_call_id: "get_movie_list_in_theater",
           }),
         ],
       },
@@ -28,18 +27,42 @@ const getMovieTheatersShowing = tool(
     });
   },
   {
-    name: "getMovieTheatersShowing",
+    name: "getMovieListInTheater",
     description:
-      "Get the list of movie theaters showing a specific movie. The input should be the movie title.",
+      "Get the list of movies in a specific theater. The input should be the theater name as referenced.",
     schema: z.object({
-      movieTitle: z
-        .string()
-        .describe("The title of the movie the user is referring to"),
+      cinemaName: z.string().describe("The name of the theater as referenced"),
     }),
   }
 );
 
-const getMoviesByGenreAndOptionallyCinema = tool(
+const getTheaterListShowingMovie = tool(
+  async ({ movieTitle }: { movieTitle: string }) => {
+    const movieTheaters = await getTheatersShowingMovie(movieTitle);
+    return new Command({
+      // update state keys
+      update: {
+        messages: [
+          new ToolMessage({
+            content: movieTheaters,
+            tool_call_id: "get_theater_list_showing_movie",
+          }),
+        ],
+      },
+      goto: END,
+    });
+  },
+  {
+    name: "getTheaterListShowingMovie",
+    description:
+      "Get the list of theaters showing a specific movie. The input should be the movie title as in reference block.",
+    schema: z.object({
+      movieTitle: z.string().describe("The title of the movie the user is referring to as referenced"),
+    }),
+  }
+);
+
+const getMoviesByGenreAndOptionallyCinemaName = tool(
   async ({ genre, cinemaName }: { genre: string; cinemaName?: string }) => {
     const movies = await getMoviesByGenreAndCinema(genre, cinemaName);
     return new Command({
@@ -48,7 +71,7 @@ const getMoviesByGenreAndOptionallyCinema = tool(
         messages: [
           new ToolMessage({
             content: movies,
-            tool_call_id: "get_movies_by_genre_and_optionally_cinema",
+            tool_call_id: "get_movies_by_genre_and_optionally_cinema_name",
           }),
         ],
       },
@@ -56,12 +79,12 @@ const getMoviesByGenreAndOptionallyCinema = tool(
     });
   },
   {
-    name: "getMoviesByGenreAndOptionallyCinema",
+    name: "getMoviesByGenreAndOptionallyCinemaName",
     description:
-      "Get the list of movies by genre and optionally by cinema. The input should be the genre and optionally the cinema name.",
+      "Get the list of movies by genre and optionally by cinema name. The input should be the genre and optionally the cinema name.",
     schema: z.object({
-      genre: z.string().describe("The genre of the movie"),
-      cinemaName: z.string().optional().describe("The name of the cinema"),
+      genre: z.string().describe("The genre of the movie as referenced"),
+      cinemaName: z.string().optional().describe("The name of the cinema if referenced"),
     }),
   }
 );
@@ -74,17 +97,13 @@ type GetMovieInfoArgs = {
 };
 const getMovieInfoByMovieName = tool(
   async ({ movieName, cinemaName, referencedTime }: GetMovieInfoArgs) => {
-    const movieInfoAsText = await getMovieInfo(
-      movieName,
-      cinemaName,
-      referencedTime
-    );
+    const movieInfoAsText = await getMovieInfo(movieName, cinemaName, referencedTime);
     return new Command({
       update: {
         messages: [
           new ToolMessage({
             content: movieInfoAsText,
-            tool_call_id: "get_movie_info_by_passing_movie_name",
+            tool_call_id: "get_movie_info_by_movie_name",
           }),
         ],
         goto: END,
@@ -92,21 +111,18 @@ const getMovieInfoByMovieName = tool(
     });
   },
   {
-    name: "getMovieInfoByPassingMovieName",
+    name: "getMovieInfoByMovieName",
     description:
-      "Get the full info about a movie by passing the movie name; cinema name and referenced time are optional.",
+      "Retrieve complete movie information by providing the movie name. Optionally filter results will be returned by specifying a cinema/theater name and/or a time reference.",
     schema: z.object({
       movieName: z.string().describe("The name of the movie"),
-      cinemaName: z.string().optional().describe("The name of the cinema"),
-      referencedTime: z
-        .string()
-        .optional()
-        .describe("The time if is referenced previously"),
+      cinemaName: z.string().optional().describe("The name of the cinema only if referenced"),
+      referencedTime: z.string().optional().describe("The time if is referenced"),
     }),
   }
 );
 
-const getCinemasNearReferencedZone = tool(
+const getTheatersNearReferencedZone = tool(
   async ({ zoneRef }: { zoneRef: string[] }) => {
     const cinemas = await getTheatersLocatedInZone(zoneRef);
     return new Command({
@@ -114,7 +130,7 @@ const getCinemasNearReferencedZone = tool(
         messages: [
           new ToolMessage({
             content: cinemas,
-            tool_call_id: "get_cinemas_near_referenced_zone",
+            tool_call_id: "get_theaters_near_referenced_zone",
           }),
         ],
         goto: END,
@@ -122,22 +138,21 @@ const getCinemasNearReferencedZone = tool(
     });
   },
   {
-    name: "getCinemasNearReferencedZone",
+    name: "getTheatersNearReferencedZone",
     description:
       "Get the list of cinemas near a referenced zone. The input should be the list of zone(s) referenced.",
-    schema: z
-      .object({
-        zoneRef: z
-          .array(z.string())
-          .describe("The zone list previously referenced"),
-      })
-      .strict(),
+    schema: z.object({
+      zoneRef: z.array(z.string()).describe("The zone list previously referenced"),
+    }),
   }
 );
 
 export const tools = [
-  getMovieTheatersShowing,
-  getMoviesByGenreAndOptionallyCinema,
+  getMovieListInTheater,
+  getTheaterListShowingMovie,
+  getMoviesByGenreAndOptionallyCinemaName,
   getMovieInfoByMovieName,
-  getCinemasNearReferencedZone,
+  getTheatersNearReferencedZone,
 ];
+
+export const toolNode = new ToolNode(tools);

@@ -1,5 +1,6 @@
 import { BaseMessage, isHumanMessage, MessageContent } from "@langchain/core/messages";
 import { z } from "zod";
+import { RunnableLambda } from "@langchain/core/runnables";
 import { GraphState } from "@/flix-agent/graph-state.js";
 import {
   getCinemaNamesAsTmp,
@@ -18,7 +19,6 @@ import {
 } from "@/flix-agent/prompt-templates.js";
 import { ChatAnthropicSingleton } from "@/flix-agent/models.js";
 import { tools } from "@/flix-agent/tools.js";
-import { RunnableLambda } from "@langchain/core/runnables";
 
 /**
  * Takes the user query and saves as current question.

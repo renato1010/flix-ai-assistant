@@ -3,9 +3,18 @@ import { fetchDataForCity } from "@/prisma/scripts/index.js";
 import {
   createMongoDBCinemasVectorIndex,
   createMongoDBMoviesVectorIndex,
+  dropDatabase,
 } from "@/utils/mongodb-atlas/index.js";
 
 async function main() {
+  console.log("dropping out database...");
+  // drop the database
+  const hasBeenDeleted = await dropDatabase();
+  if (!hasBeenDeleted) {
+    console.error("Error dropping out database");
+    throw new Error("Error dropping out database");
+  }
+  console.log("database dropped successfully");
   console.log("Seeding database...");
   console.log("start creating vector indexes...");
   // create movies vector index
@@ -47,13 +56,15 @@ async function main() {
 (async () => {
   try {
     await main();
+    console.log("🌱 Seeding completed successfully");
   } catch (error) {
-    console.error(error);
-    process.exit(1);
+    throw new Error(`Seeding failed: ${error}`);
   } finally {
     await prisma.$disconnect();
+    console.log("Disconnected from database");
+    process.exit(0);
   }
-})().catch(error => {
-  console.error(error);
+})().catch((error) => {
+  console.error("Error during seeding:", error);
   process.exit(1);
 });

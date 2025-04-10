@@ -1,12 +1,11 @@
 "use server";
 import { END, START, StateGraph } from "@langchain/langgraph";
-import { ToolNode } from "@langchain/langgraph/prebuilt";
 import { GraphState } from "@/flix-agent/graph-state.js";
 import { byCinema, byMovieName, byTheHour, byZone, byGenre, initNode, agent } from "@/flix-agent/nodes.js";
 import { shouldContinue } from "@/flix-agent/edges.js";
-import { tools } from "@/flix-agent/tools.js";
+import { toolNode } from "@/flix-agent/tools.js";
 
-const toolNodeForGraph = new ToolNode(tools);
+const toolNodeForGraph = toolNode;
 // Define the Graph
 const workflow = new StateGraph(GraphState)
   // Define the nodes & edges

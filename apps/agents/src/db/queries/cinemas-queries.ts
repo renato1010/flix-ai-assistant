@@ -1,8 +1,8 @@
 import { prisma } from "@/db/client.js";
-import { dashLine } from "@/utils/misc.js";
+import { dashLine, getNowHrsAndMinutes } from "@/utils/misc.js";
 import { getStringFromFormat } from "@/db/queries/utils.js";
 
-function getMovieTheatersfromMovieNameQuery(movieTitle: string) {
+function getTheatersShowingMovieQuery(movieTitle: string) {
   return prisma.cinema.findMany({
     where: {
       movies: {
@@ -41,19 +41,27 @@ function getMovieTheatersfromMovieNameQuery(movieTitle: string) {
   });
 }
 
-export async function getTheatersFromMovieName(movieTitle: string) {
-  const movieTheaters = await getMovieTheatersfromMovieNameQuery(movieTitle);
-  const refined = movieTheaters.map(({ name, cinemaAddress, movies }, idx) => {
-    const { movieName, formats } = movies[0];
-    const startTimes = getStringFromFormat(formats);
-    return `
+export async function getTheatersShowingMovie(movieTitle: string) {
+  const movieTheaters = await getTheatersShowingMovieQuery(movieTitle);
+  const refined = movieTheaters
+    .filter(({ movies }) => {
+      const schedules = movies.map(({ formats }) => formats.map(({ startTime }) => startTime).flat()).flat();
+      return schedules.some((schedule) => schedule > getNowHrsAndMinutes());
+    })
+    .map(({ name, cinemaAddress, movies }, idx) => {
+      const { movieName, formats } = movies[0];
+      const startTimes = getStringFromFormat(formats).join(", ");
+      return `
     Option: ${idx + 1}
     Theater Name: ${name}
     Theater Address: ${cinemaAddress}
     Movie Name: ${movieName}
     Movie Schedule: ${startTimes}
     `;
-  });
+    });
+  if (!refined.length) {
+    return `No theaters found showing the movie "${movieTitle}" at this time.`;
+  }
   const contentList = refined.reduce<string>((acc, item) => {
     const line = item;
     return acc + line + dashLine;
@@ -78,17 +86,13 @@ export async function getTheatersLocatedInZone(zones: string[]) {
         ttl: 4 * 60 * 60, // 4 hour
       },
     });
-  const theatersResults = await Promise.allSettled(
-    zones.map((z) => movieTheatersPromise(z))
-  );
+  const theatersResults = await Promise.allSettled(zones.map((z) => movieTheatersPromise(z)));
   if (theatersResults.some((result) => result.status === "rejected")) {
     // TODO: think if we want to handle error or just return text
     // throw new Error("Error fetching movie theaters");
     return `Not enough information to provide a list of theaters.`;
   }
-  const fullfilled = theatersResults.filter(
-    (result) => result.status === "fulfilled"
-  );
+  const fullfilled = theatersResults.filter((result) => result.status === "fulfilled");
   const values = fullfilled
     .map((result) => result.value)
     .flat()
@@ -106,3 +110,10 @@ export async function getTheatersLocatedInZone(zones: string[]) {
   return contentList;
 }
 
+(async () => {
+  const response = await getTheatersShowingMovie("Capitán América: Un Nuevo Mundo");
+  console.dir({ response }, { depth: Infinity });
+})().catch((error) => {
+  console.error("Error during seeding:", error);
+  process.exit(1);
+});
