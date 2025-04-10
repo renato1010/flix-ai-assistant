@@ -23,8 +23,11 @@ async function main() {
   await createMongoDBCinemasVectorIndex();
 
   console.log("start seeding the database...");
+  console.log("start fetching data for Guatemala City...");
   // seed the database with data
   const { cinemas, cityName } = await fetchDataForCity();
+  console.log("data fetched successfully");
+  console.log("writing to database...");
   await prisma.city.create({
     data: {
       name: cityName,
@@ -51,6 +54,7 @@ async function main() {
       },
     },
   });
+  console.log("data written successfully");
 }
 
 (async () => {
