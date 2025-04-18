@@ -1,6 +1,6 @@
 import { prisma } from "@/db/client.js";
 import { dashLine, getNowHrsAndMinutes } from "@/utils/misc.js";
-import { getNumberFromTimeString, getStringFromFormat, getStringFromNumber } from "@/db/queries/utils.js";
+import { getNumberFromTimeString, getStringFromNumber } from "@/db/queries/utils.js";
 
 export async function getMovieInfo(movieName: string, cinemaName?: string, time?: string) {
   const movieList = await prisma.movie.findMany({
@@ -41,13 +41,22 @@ export async function getMovieInfo(movieName: string, cinemaName?: string, time?
     },
   });
 
-  const refined = movieList.map(({ cinema, formats, movieName, genre, movieUrl, synopsis }, idx) => {
+  const options = movieList.map(({ cinema, formats, movieName, genre, movieUrl, synopsis }, idx) => {
     const { name, cinemaAddress } = cinema;
     // filter by start time greater than passed time
     const timeThreshold = time || getStringFromNumber(getNowHrsAndMinutes());
-    const filteredByTimeThreshold = formats.filter(({ startTime }) => {
-      return startTime.some((t) => t > getNumberFromTimeString(timeThreshold));
-    });
+    const formatsFlat = formats.flatMap(({ startTime }) => startTime).sort((a, b) => a - b);
+    const filteredByTimeThreshold = formatsFlat
+      .filter((timeAsNumber) => {
+        return timeAsNumber > getNumberFromTimeString(timeThreshold);
+      })
+      .map((timeAsNumber) => {
+        return getStringFromNumber(timeAsNumber);
+      });
+    if (filteredByTimeThreshold.length < 1) {
+      return "";
+    }
+    const movieSchedules = filteredByTimeThreshold.join(", ");
     return `
     Option: ${idx + 1}
     Movie Name: ${movieName}
@@ -55,11 +64,15 @@ export async function getMovieInfo(movieName: string, cinemaName?: string, time?
     Genre: ${genre}
     Theater Name: ${name}
     Theater Address: ${cinemaAddress}
-    Movie Schedule: ${getStringFromFormat(filteredByTimeThreshold)}
+    Movie Schedule: ${movieSchedules}
     Movie URL: ${movieUrl}
     `;
   });
-  const contentList = refined.reduce<string>((acc, item) => {
+  if (!options.length) {
+    return `Cant find info for the movie "${movieName}" 
+    ${cinemaName ? 'in the Theater "${cinemaName}" at this time.' : ""} `;
+  }
+  const contentList = options.reduce<string>((acc, item) => {
     const line = item;
     return acc + line + dashLine;
   }, "");
@@ -99,25 +112,30 @@ export async function getMoviesByCinemaName(cinemaName: string) {
       tags: ["movies_by_cinema_name"],
     },
   });
-  const refined = movies
-    .filter(({ formats }) => {
-      return formats.some(({ startTime }) => {
-        return startTime.some((t) => t > getNowHrsAndMinutes());
+  const refined = movies.map(({ formats, movieName, genre, movieUrl, synopsis }, idx) => {
+    // filter by start time greater than passed time
+    const timeThreshold = getStringFromNumber(getNowHrsAndMinutes());
+    const formatsFlat = formats.flatMap(({ startTime }) => startTime).sort((a, b) => a - b);
+    const filteredByTimeThreshold = formatsFlat
+      .filter((timeAsNumber) => {
+        return timeAsNumber > getNumberFromTimeString(timeThreshold);
+      })
+      .map((timeAsNumber) => {
+        return getStringFromNumber(timeAsNumber);
       });
-    })
-    .map(({ formats, movieName, genre, movieUrl, synopsis }, idx) => {
-      const futureSchedules = formats.filter(({ startTime }) => {
-        return startTime.some((t) => t > getNowHrsAndMinutes());
-      });
-      return `
+    if (filteredByTimeThreshold.length < 1) {
+      return "";
+    }
+    const movieSchedules = filteredByTimeThreshold.join(", ");
+    return `
     Movie Option: ${idx + 1}
     Movie Name: ${movieName}
     Genre: ${genre}
     Movie Sinopsis: ${synopsis}
-    Movie Schedule: ${getStringFromFormat(futureSchedules).join(", ")}
+    Movie Schedule: ${movieSchedules}
     Movie URL: ${movieUrl}
     `;
-    });
+  });
   if (!refined.length) {
     return `No movies found in the cinema "${cinemaName}" at this time.`;
   }
@@ -173,25 +191,33 @@ export async function getMoviesByGenreAndCinema(genre: string, cinemaName?: stri
       tags: ["movies_by_genre_and_cinema"],
     },
   });
-  const refined = movies
-    .filter(({ formats }) => {
-      return formats.some(({ startTime }) => {
-        return startTime.some((t) => t > getNowHrsAndMinutes());
+  const refined = movies.map(({ cinema, formats, movieName, genre, movieUrl }, idx) => {
+    const { name, cinemaAddress } = cinema;
+    // filter by start time greater than passed time
+    const timeThreshold = getStringFromNumber(getNowHrsAndMinutes());
+    const formatsFlat = formats.flatMap(({ startTime }) => startTime).sort((a, b) => a - b);
+    const filteredByTimeThreshold = formatsFlat
+      .filter((timeAsNumber) => {
+        return timeAsNumber > getNumberFromTimeString(timeThreshold);
+      })
+      .map((timeAsNumber) => {
+        return getStringFromNumber(timeAsNumber);
       });
-    })
-    .map(({ cinema, formats, movieName, genre, movieUrl }, idx) => {
-      const { name, cinemaAddress } = cinema;
-      return `
+    if (filteredByTimeThreshold.length < 1) {
+      return "";
+    }
+    const movieSchedules = filteredByTimeThreshold.join(", ");
+    return `
     Option: ${idx + 1}
     Movie Name: ${movieName}
     Genre: ${genre}
     Theater Name: ${name}
     Theater Address: ${cinemaAddress}
-    Movie Schedule: ${getStringFromFormat(formats)}
+    Movie Schedule: ${movieSchedules}
     Movie URL: ${movieUrl}
     `;
-    });
-  if (!refined.length) {
+  });
+  if (refined.length < 1) {
     return `No movies found in the genre "${genre}" at this time.`;
   }
   const contentList = refined.reduce<string>((acc, item) => {
@@ -200,3 +226,5 @@ export async function getMoviesByGenreAndCinema(genre: string, cinemaName?: stri
   }, "");
   return contentList;
 }
+
+

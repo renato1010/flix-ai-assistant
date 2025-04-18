@@ -3,19 +3,9 @@ import { fetchDataForCity } from "@/prisma/scripts/index.js";
 import {
   createMongoDBCinemasVectorIndex,
   createMongoDBMoviesVectorIndex,
-  dropDatabase,
 } from "@/utils/mongodb-atlas/index.js";
 
 async function main() {
-  console.log("dropping out database...");
-  // drop the database
-  const hasBeenDeleted = await dropDatabase();
-  if (!hasBeenDeleted) {
-    console.error("Error dropping out database");
-    throw new Error("Error dropping out database");
-  }
-  console.log("database dropped successfully");
-  console.log("Seeding database...");
   console.log("start creating vector indexes...");
   // create movies vector index
   await createMongoDBMoviesVectorIndex();

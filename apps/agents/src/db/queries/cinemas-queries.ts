@@ -44,9 +44,11 @@ function getTheatersShowingMovieQuery(movieTitle: string) {
 export async function getTheatersShowingMovie(movieTitle: string) {
   const movieTheaters = await getTheatersShowingMovieQuery(movieTitle);
   const refined = movieTheaters
+    // the list of movies always have 1 item.
     .filter(({ movies }) => {
-      const schedules = movies.map(({ formats }) => formats.map(({ startTime }) => startTime).flat()).flat();
-      return schedules.some((schedule) => schedule > getNowHrsAndMinutes());
+      const formats = movies[0].formats;
+      const startTimes = formats.flatMap(({ startTime }) => startTime);
+      return startTimes.some((timeAsNumber) => timeAsNumber > getNowHrsAndMinutes());
     })
     .map(({ name, cinemaAddress, movies }, idx) => {
       const { movieName, formats } = movies[0];
@@ -59,7 +61,7 @@ export async function getTheatersShowingMovie(movieTitle: string) {
     Movie Schedule: ${startTimes}
     `;
     });
-  if (!refined.length) {
+  if (refined.length < 1) {
     return `No theaters found showing the movie "${movieTitle}" at this time.`;
   }
   const contentList = refined.reduce<string>((acc, item) => {
@@ -109,11 +111,3 @@ export async function getTheatersLocatedInZone(zones: string[]) {
   }, dashLine);
   return contentList;
 }
-
-(async () => {
-  const response = await getTheatersShowingMovie("Capitán América: Un Nuevo Mundo");
-  console.dir({ response }, { depth: Infinity });
-})().catch((error) => {
-  console.error("Error during seeding:", error);
-  process.exit(1);
-});

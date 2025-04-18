@@ -11,7 +11,9 @@
     "clean": "rm -rf ./dist .turbo || true",
     "format": "prettier --config .prettierrc --write \"src\"",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "db:reset": "prisma db push --force-reset --schema ./src/prisma/schema.prisma",
+    "db:seed": "pnpm run db:reset && tsx --env-file=../../.env src/prisma/seed.ts"
   },
   "dependencies": {
     "@elastic/elasticsearch": "^8.17.1",
