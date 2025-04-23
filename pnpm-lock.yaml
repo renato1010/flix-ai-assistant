@@ -124,6 +124,9 @@ importers:
       '@jest/globals':
         specifier: ^29.7.0
         version: 29.7.0
+      '@langchain/langgraph-cli':
+        specifier: ^0.0.27
+        version: 0.0.27(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))(@langchain/langgraph-checkpoint@0.0.16(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2))))(@langchain/langgraph@0.2.62(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))(react@19.1.0)(zod-to-json-schema@3.24.5(zod@3.24.2)))(openai@4.91.1(ws@8.18.1)(zod@3.24.2))(typescript@5.7.3)
       '@types/node':
         specifier: ^20
         version: 20.17.30
@@ -1540,6 +1543,19 @@ packages:
       '@langchain/langgraph-sdk':
         optional: true
 
+  '@langchain/langgraph-api@0.0.27':
+    resolution: {integrity: sha512-ldO9buJB2krblnHAm4pwST8L01wUFLertKMpM78RSQl3WLb1ft+IIBrEvj3ToHwCrYsd7DdNY/su0GiAGIR3yA==}
+    engines: {node: ^18.19.0 || >=20.16.0}
+    peerDependencies:
+      '@langchain/core': ^0.3.42
+      '@langchain/langgraph': ^0.2.57
+      '@langchain/langgraph-checkpoint': ^0.0.16
+      '@langchain/langgraph-sdk': ^0.0.70
+      typescript: ^5.5.4
+    peerDependenciesMeta:
+      '@langchain/langgraph-sdk':
+        optional: true
+
   '@langchain/langgraph-checkpoint@0.0.16':
     resolution: {integrity: sha512-B50l7w9o9353drHsdsD01vhQrCJw0eqvYeXid7oKeoj1Yye+qY90r97xuhiflaYCZHM5VEo2oaizs8oknerZsQ==}
     engines: {node: '>=18'}
@@ -1556,6 +1572,11 @@ packages:
     engines: {node: ^18.19.0 || >=20.16.0}
     hasBin: true
 
+  '@langchain/langgraph-cli@0.0.27':
+    resolution: {integrity: sha512-fHNXxuc123b7uOK0IaEe4BipCfUHLGi25cowJzy3cYCvMQSG8f53CarH14HDmItyhHphvs3mzyF1fAjl1n6OHQ==}
+    engines: {node: ^18.19.0 || >=20.16.0}
+    hasBin: true
+
   '@langchain/langgraph-sdk@0.0.57':
     resolution: {integrity: sha512-xb1OgsQ7fq6zjWaspa/9yjZ35kf1/qIPBC8wkNUI0gelnZLeAnss9RhGKc8L2qMB1P3anxRB9IPGwqCoMUHimg==}
     peerDependencies:
@@ -1569,6 +1590,11 @@ packages:
 
   '@langchain/langgraph-ui@0.0.26':
     resolution: {integrity: sha512-xrKYBHxSGW701C+rWqjzcPQ+aIdYFuPv8EUKwjoLfldkzOtkC0YPKOnPortWAqEojiNUqRpHyjjaKPzF7GnERQ==}
+    engines: {node: ^18.19.0 || >=20.16.0}
+    hasBin: true
+
+  '@langchain/langgraph-ui@0.0.27':
+    resolution: {integrity: sha512-rNFlx3uvU9a0KDTlLZWiceXjo94OHdzirg2TjfcBH3v4S3eI1r1ObQQ7Kjvn3FoHh8IYsPMa7HDmMBwIJe/hsg==}
     engines: {node: ^18.19.0 || >=20.16.0}
     hasBin: true
 
@@ -7057,6 +7083,36 @@ snapshots:
       - openai
       - supports-color
 
+  '@langchain/langgraph-api@0.0.27(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))(@langchain/langgraph-checkpoint@0.0.16(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2))))(@langchain/langgraph@0.2.62(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))(react@19.1.0)(zod-to-json-schema@3.24.5(zod@3.24.2)))(openai@4.91.1(ws@8.18.1)(zod@3.24.2))(typescript@5.7.3)':
+    dependencies:
+      '@babel/code-frame': 7.26.2
+      '@hono/node-server': 1.14.0(hono@4.7.5)
+      '@hono/zod-validator': 0.2.2(hono@4.7.5)(zod@3.24.2)
+      '@langchain/core': 0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2))
+      '@langchain/langgraph': 0.2.62(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))(react@19.1.0)(zod-to-json-schema@3.24.5(zod@3.24.2))
+      '@langchain/langgraph-checkpoint': 0.0.16(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))
+      '@langchain/langgraph-ui': 0.0.27
+      '@types/json-schema': 7.0.15
+      '@typescript/vfs': 1.6.1(typescript@5.7.3)
+      dedent: 1.5.3
+      dotenv: 16.4.7
+      exit-hook: 4.0.0
+      hono: 4.7.5
+      langsmith: 0.2.15(openai@4.91.1(ws@8.18.1)(zod@3.24.2))
+      open: 10.1.0
+      stacktrace-parser: 0.1.11
+      superjson: 2.2.2
+      tsx: 4.19.3
+      typescript: 5.7.3
+      uuid: 10.0.0
+      winston: 3.17.0
+      winston-console-format: 1.0.8
+      zod: 3.24.2
+    transitivePeerDependencies:
+      - babel-plugin-macros
+      - openai
+      - supports-color
+
   '@langchain/langgraph-checkpoint@0.0.16(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))':
     dependencies:
       '@langchain/core': 0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2))
@@ -7121,6 +7177,36 @@ snapshots:
       - supports-color
       - typescript
 
+  '@langchain/langgraph-cli@0.0.27(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))(@langchain/langgraph-checkpoint@0.0.16(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2))))(@langchain/langgraph@0.2.62(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))(react@19.1.0)(zod-to-json-schema@3.24.5(zod@3.24.2)))(openai@4.91.1(ws@8.18.1)(zod@3.24.2))(typescript@5.7.3)':
+    dependencies:
+      '@babel/code-frame': 7.26.2
+      '@commander-js/extra-typings': 13.1.0(commander@13.1.0)
+      '@langchain/langgraph-api': 0.0.27(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))(@langchain/langgraph-checkpoint@0.0.16(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2))))(@langchain/langgraph@0.2.62(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))(react@19.1.0)(zod-to-json-schema@3.24.5(zod@3.24.2)))(openai@4.91.1(ws@8.18.1)(zod@3.24.2))(typescript@5.7.3)
+      chokidar: 4.0.3
+      commander: 13.1.0
+      dedent: 1.5.3
+      dotenv: 16.4.7
+      execa: 9.5.2
+      exit-hook: 4.0.0
+      extract-zip: 2.0.1
+      langsmith: 0.2.15(openai@4.91.1(ws@8.18.1)(zod@3.24.2))
+      open: 10.1.0
+      stacktrace-parser: 0.1.11
+      tar: 7.4.3
+      winston: 3.17.0
+      winston-console-format: 1.0.8
+      yaml: 2.7.1
+      zod: 3.24.2
+    transitivePeerDependencies:
+      - '@langchain/core'
+      - '@langchain/langgraph'
+      - '@langchain/langgraph-checkpoint'
+      - '@langchain/langgraph-sdk'
+      - babel-plugin-macros
+      - openai
+      - supports-color
+      - typescript
+
   '@langchain/langgraph-sdk@0.0.57(@langchain/core@0.3.43(openai@4.91.1(ws@8.18.1)(zod@3.24.2)))(react@19.1.0)':
     dependencies:
       '@types/json-schema': 7.0.15
@@ -7132,6 +7218,14 @@ snapshots:
       react: 19.1.0
 
   '@langchain/langgraph-ui@0.0.26':
+    dependencies:
+      '@commander-js/extra-typings': 13.1.0(commander@13.1.0)
+      commander: 13.1.0
+      esbuild: 0.25.2
+      esbuild-plugin-tailwindcss: 2.0.1
+      zod: 3.24.2
+
+  '@langchain/langgraph-ui@0.0.27':
     dependencies:
       '@commander-js/extra-typings': 13.1.0(commander@13.1.0)
       commander: 13.1.0
