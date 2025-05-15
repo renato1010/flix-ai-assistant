@@ -1,5 +1,8 @@
 [English](README.md)
 
+check quick demo
+[CTRL & Click para ver video-demo en Loom](https://bit.ly/langgraph-ai-agent)
+
 # 🎬 Chatbot/Agente-IA de Películas para Ciudad de Guatemala
 
 Un chatbot impulsado por inteligencia artificial diseñado para asistir a los usuarios en Ciudad de Guatemala con listados de películas, ubicaciones de cines y horarios de funciones. Construido como una herramienta educativa para demostrar la integración del desarrollo web moderno con tecnologías de modelos de lenguaje de gran tamaño (LLM).

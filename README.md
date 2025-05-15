@@ -1,5 +1,8 @@
 [Español](README_ES.md)
 
+check quick demo
+[CTRL & Click to watch quick Loom Demo](https://bit.ly/langgraph-ai-agent)
+
 # 🎬 Movie Agent Chatbot for Guatemala City
 
 An AI-powered chatbot designed to assist users in Guatemala City with movie listings, theater locations, and showtimes. Built as a teaching tool to demonstrate the integration of modern web development with LLM technologies.
